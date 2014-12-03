@@ -1,13 +1,41 @@
-##Kunka
+Herring Cove
+============
 
-> 这只是另外一个 Jekyll 主题文件。
+Herring Cove is a clean and responsive theme for Jekyll. 
 
-![kunka blog theme](images/blog.jpg)
 
-###使用方法
+### Overview 
 
-* 把主题文件 clone 到你本地服务器，添加文章到 ```_posts``` 文件夹。
-* 修改 ```_config.yml```，里面有很多可以配置的选项。
-* 运行 ```jekyll serve```，浏览器打开 http://localhost:4000 便可以看到新的主题。
+* Fixed Sidebar with social links
+* Minimal design 
+* Comments by Disqus
+* Social Sharing abilities 
+* Easy to configure
+* Based on Bootstrap
 
-更多的介绍，详见[Jekyll 博客主题 Kunka](http://www.zhanxin.info/jekyll/2013-08-11-jekyll-theme-kunka.html)。
+### Screenshots
+
+![screenshot](/images/screenshot1.png)
+![screenshot](/images/screenshot2.png)
+
+### Setup
+
+1. Install Jekyll
+2. Fork or [download](https://github.com/arnp/herring-cove/archive/master.zip) this theme repo
+3. Edit the `_config.yml` file
+
+You can change the showcase image by replacing `showcase.jpg` file in the `images` folder. I'll try to find a better way to do this soon. 
+
+### Download
+
+[download](https://github.com/arnp/herring-cove/archive/master.zip)
+
+### License
+* [MIT](http://opensource.org/licenses/MIT)
+
+-------------
+Herring Cove is always a work in progress and as such, I hope to clean up the code and add features as time permits. Feel free to add your own additions. 
+
+*What's with the name?*
+
+[Herring Cove](http://www.capecodbeachchair.com/beachguide/index.cfm?page=3&BeachID=5) is a beach on Cape Cod in Provincetown, Massachusetts. If you're in the area, be sure to check it out!
