@@ -1,16 +1,16 @@
-name: Herring Cove
-author: Herring Cove
+name: Vinchi
+author: Vinchi
 markdown: redcarpet
 pygments: true
 baseurl: /herring-cove
-description: theme for jekyll
-github: http://www.github.com/arnp
+description: ambition but self-abasement
+github: http://www.github.com/vinci7
 twitter: http://www.twitter.com/
 facebook: http://www.facebook.com
 linkedin: http://www.linkedin.com
-email: rnpatel[at]me.com
-location: 42°2'16"N   70°12'47"W
-disqus: diqus-username
+email: appleqyq@163.com
+location: 30°18'25"N 120°04'54"E
+disqus: Vinchi
 
 # Serving
 detach:       false
