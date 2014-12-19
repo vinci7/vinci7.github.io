@@ -1,5 +1,6 @@
 name: Vinchi
 author: Vinchi
+title: Vinchi's Blog
 markdown: redcarpet
 pygments: true
 baseurl: /Vinchi's Blog
