@@ -1,6 +1,8 @@
 ---
-layout: post
-title: Samples
+layout: post  
+title: Mac 配置环境变量 Path 的方法
+date: 2014-12-19 14:31:48
+categories: mypost
 ---
 
 Mac 配置环境变量 Path 的方法
@@ -9,6 +11,6 @@ Mac 配置环境变量 Path 的方法
 
 ###查看PATH
 在命令行中键入`$PATH`即可
-![alt text](../images/1-1.png "1-1.png")
+![alt text](/images/1-1.png "1-1.png")
 
 ###PATH
