@@ -1,5 +1,5 @@
 ---
-layout:post
+layout: post
 title: 丧钟为谁而鸣？
 ---
 不要问丧钟为谁而鸣，就是为你而鸣。
