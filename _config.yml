@@ -1,1 +1,23 @@
+name: Vinchi
+author: Vinchi
+markdown: redcarpet
 pygments: true
+baseurl: /Vinchi's Blog
+description: self-abasement but ambition
+github: http://www.github.com/vinci7
+twitter: https://twitter.com/appleqyq
+weibo: http://weibo.com
+facebook: https://www.facebook.com/profile.php?id=100008296842261
+linkedin: http://www.linkedin.com
+email: appleqyq@163.com
+location: 30°18'25"N 120°04'54"E
+disqus: Vinchi
+
+# Serving
+detach:       false
+port:         4000
+host:         127.0.0.1
+baseurl:      "" # does not include hostname
+
+##Make sure to edit the above fields, especially for disqus.
+
