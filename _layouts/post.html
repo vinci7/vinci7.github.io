@@ -1,44 +1,21 @@
 ---
-layout: article
+layout: index
 ---
-  <div id="article">
-   <div class="article-title">{{ page.title }}</div>
-   <p class="meta"><small>&nbsp;<i class="fa fa-calendar-o"></i> {{ page.date | date_to_string}}</small></p> <hr/>
-   <div class="post">
-     {{ content }}
-   </div>
- </div>
 
+<article id="post__content">
+  <h1 id="post__title" data-identifier="{{ page.date | date: "%Y%m%d" }}">{{ page.title }}</h1>
+  {{ content }}
+</article> <!-- end #post__content -->
 
- <a href="https://twitter.com/share" class="twitter-share-button " data-size="small" data-count="none">Tweet</a>
- <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+<div id="post__share">
+  <a id="icon-twitter" class="fontello" href="https://twitter.com/intent/tweet?url=place_your_url_here{{ page.url }}&text={{ page.title }}" target="_blank"></a>
+  <a id="icon-cc" class="fontello" href="http://creativecommons.org/licenses/by-nc-sa/3.0" target="_blank"></a>
+  <a id="icon-weibo" class="fontello" href="http://v.t.sina.com.cn/share/share.php?url=place_your_url_here{{ page.url }}&title={{ page.title }}" target="_blank"></a>
+</div> <!-- end #post__share -->
 
- <ul class="pager">
-  {% if page.previous %}
-  <li class="previous"><a href="{{ page.previous.url }}">&larr; Older</a></li>
-  {% endif %}
-  {% if page.next %}
-  <li class="next"><a href="{{ page.next.url }}">Newer &rarr;</a></li>
-  {% endif %}
+<div id="disqus_thread">
+  <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  <a href="http://disqus.com" class="dsq-brlink" target="_blank">Loading Disqus comments...</a>
+</div> <!-- end #disqus_thread -->
 
-</ul>
-
-  <!-- 多说评论框 start -->
-  <div class="ds-thread" data-thread-key="vinchi" data-title="{{page.title}}" data-url="{{site.url}}{{page.url}}"></div>
-<!-- 多说评论框 end -->
-<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
-<script type="text/javascript">
-var duoshuoQuery = {short_name:"vinchi"};
-  (function() {
-    var ds = document.createElement('script');
-    ds.type = 'text/javascript';ds.async = true;
-    ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
-    ds.charset = 'UTF-8';
-    (document.getElementsByTagName('head')[0] 
-     || document.getElementsByTagName('body')[0]).appendChild(ds);
-  })();
-  </script>
-<!-- 多说公共JS代码 end -->
-
-    </ul>
-    </div>
+<p id="copyright">Powered by <a href="http://jekyllrb.com" target="_blank">Jekyll</a>&nbsp;&nbsp;|&nbsp;&nbsp;Theme <a href="https://github.com/P233/3-Jekyll" target="_blank">3-Jekyll</a></p>
