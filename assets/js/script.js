@@ -12,7 +12,7 @@ if ($(window).width() <= 1280) {
 
 // Variables
     tag1       = $('.pl__all'),
-    tag2       = $('.苟且'),
+    tag2       = $('.生活'),
     tag3       = $('.诗'),
     tag4       = $('.远方');
     tag5       = $('.技术');
