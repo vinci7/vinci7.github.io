@@ -15,6 +15,7 @@ if ($(window).width() <= 1280) {
     tag2       = $('.苟且'),
     tag3       = $('.诗'),
     tag4       = $('.远方');
+    tag5       = $('.技术');
 var sidebar    = $('#sidebar'),
     container  = $('#post'),
     content    = $('#pjax'),
@@ -28,7 +29,7 @@ var clickHandler = function(k) {
     window['tag'+k].delay(50).fadeIn(350);
   }
 };
-for (var i = 1; i <= 4; i++) {
+for (var i = 1; i <= 5; i++) {
   $('#js-label' + i).on('click', clickHandler(i));
 }
 

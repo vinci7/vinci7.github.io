@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 那时，就在那时，希望我仍无比坚强。
+category: 生活
 ---
 
 #####病房里

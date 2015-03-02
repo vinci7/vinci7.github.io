@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 三年旧时光
+category: 诗
 ---
 
 ###有爱

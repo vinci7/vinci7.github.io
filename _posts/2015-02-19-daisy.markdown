@@ -1,6 +1,6 @@
 ---
 layout: post
-category: poem
+category: 诗
 title: 我会采更多的雏菊
 ---
 纳丁•斯特尔（美国诗人，时年87岁）

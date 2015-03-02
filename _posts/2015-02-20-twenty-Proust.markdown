@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 20岁的普鲁斯特问卷
+category: 生活
 ---
 
 1. 你认为最完美的快乐是怎样的？

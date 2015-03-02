@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 我还年轻，全世界都是我的
+category: 生活
 ---
 
 

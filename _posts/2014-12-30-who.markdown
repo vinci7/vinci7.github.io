@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 丧钟为谁而鸣？
+category: 诗
 ---
 不要问丧钟为谁而鸣，就是为你而鸣。
 
