@@ -20,6 +20,12 @@ var sidebar    = $('#sidebar'),
     container  = $('#post'),
     content    = $('#pjax'),
     button     = $('#icon-arrow');
+//去除边栏列表
+sidebar.addClass('fullscreen');
+button.addClass('fullscreen');
+content.delay(10).queue(function(){
+  $(this).addClass('fullscreen').dequeue();
+});
 
 // Tags switcher
 var clickHandler = function(k) {
