@@ -9,6 +9,11 @@
 if ($(window).width() <= 1280) {
   $('#sidebar').addClass('mobile')
 }
+sidebar.addClass('fullscreen');
+button.addClass('fullscreen');
+content.delay(200).queue(function(){
+  $(this).addClass('fullscreen').dequeue();
+});
 
 // Variables
     tag1       = $('.pl__all'),
