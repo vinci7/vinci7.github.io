@@ -21,7 +21,12 @@ var sidebar    = $('#sidebar'),
     content    = $('#pjax'),
     button     = $('#icon-arrow');
 
-
+sidebar.addClass('fullscreen');
+button.addClass('fullscreen');
+content.delay(200).queue(function(){
+  $(this).addClass('fullscreen').dequeue();
+});
+    
 // Tags switcher
 var clickHandler = function(k) {
   return function() {
