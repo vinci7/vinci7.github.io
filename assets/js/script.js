@@ -9,11 +9,6 @@
 if ($(window).width() <= 1280) {
   $('#sidebar').addClass('mobile')
 }
-sidebar.addClass('fullscreen');
-button.addClass('fullscreen');
-content.delay(200).queue(function(){
-  $(this).addClass('fullscreen').dequeue();
-});
 
 // Variables
     tag1       = $('.pl__all'),
@@ -25,6 +20,12 @@ var sidebar    = $('#sidebar'),
     container  = $('#post'),
     content    = $('#pjax'),
     button     = $('#icon-arrow');
+//去除边栏列表
+sidebar.addClass('fullscreen');
+button.addClass('fullscreen');
+content.delay(200).queue(function(){
+  $(this).addClass('fullscreen').dequeue();
+});
 
 // Tags switcher
 var clickHandler = function(k) {
