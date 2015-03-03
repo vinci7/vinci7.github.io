@@ -23,7 +23,7 @@ var sidebar    = $('#sidebar'),
 //去除边栏列表
 sidebar.addClass('fullscreen');
 button.addClass('fullscreen');
-content.delay(200).queue(function(){
+content.delay(10).queue(function(){
   $(this).addClass('fullscreen').dequeue();
 });
 
