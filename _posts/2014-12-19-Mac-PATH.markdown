@@ -8,7 +8,7 @@ category: 技术
 
 ###查看PATH
 在命令行中键入`$PATH`即可
-![alt text](/images/1-1.png "1-1.png")
+![alt text](http://7xoc7e.com1.z0.glb.clouddn.com/16-1-1/78789676.jpg "1-1.png")
 
 ###系统如何生成PATH
 六个与PATH有关的文件
@@ -30,3 +30,4 @@ category: 技术
 
 ###重启生效
 修改完成后再次键入`$PATH`没有变换不要慌张，重启电脑即可。
+
