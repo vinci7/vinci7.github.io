@@ -1,0 +1,33 @@
+---
+title: Nodejs下Express框架保持后台运行
+layout: post
+category: 技术
+---
+
+安装forever到全局
+
+	npm install -g forever
+
+使用forever命令启动Express项目
+
+	forever start app.js
+
+修改过源代码后重新启动项目
+
+	forever restart app.js
+
+查看后台运行Nodejs项目列表
+
+	forever list
+
+停止某个Nodejs项目的后台运行，Stop by Id|Uid|Pid|Index|Script
+
+	forever stop app.js
+
+停止所有Nodejs项目的后台运行
+
+	forever stopall
+
+
+
+

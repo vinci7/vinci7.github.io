@@ -1,0 +1,16 @@
+---
+title: vsftp添加删除带有权限限制的用户
+layout: post
+category: 技术
+---
+
+useradd -d /home/test test
+
+创建一个根目录为/home/test的用户
+
+passwd test
+
+设置该用户的密码
+
+
+
