@@ -1,10 +1,10 @@
 ---
+title: 我会采更多的雏菊
 layout: post
 category: 诗
-title: 我会采更多的雏菊
 ---
 纳丁•斯特尔（美国诗人，时年87岁）
-![alt text](/images/2015-02-19.jpg "2015-02-19.jpg")
+![](http://7xoc7e.com1.z0.glb.clouddn.com/16-1-2/70278690.jpg)
 
 如果我能够从头活过，
 
@@ -61,3 +61,4 @@ title: 我会采更多的雏菊
 我会多骑些旋转木马，
 
 我会采更多的雏菊。
+
