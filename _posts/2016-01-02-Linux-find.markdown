@@ -6,7 +6,7 @@ category: 技术
 
 格式
 
-	find path -option string
+	find path -option target
 
 例子
 
