@@ -12,7 +12,8 @@ category: 技术
 
 	passwd test
 
-
-
+设置为root用户
+	
+	
 
 
