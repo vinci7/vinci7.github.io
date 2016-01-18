@@ -1,3 +1,9 @@
+---
+title: Nodejs 学习笔记
+layout: post
+category: 技术
+---
+
 ##接受参数传递
 Express官网给出了获取参数的三种方法
 
