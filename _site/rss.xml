@@ -1,0 +1,623 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Vinchi</title>
+    <link>vinchi.me</link>
+    <atom:link href="vinchi.me/rss.xml" rel="self" type="application/rss+xml" />
+    <description>self-abasement but ambition</description>
+    <language>chinese</language>
+    <pubDate>Sun, 24 Jan 2016 11:45:32 +0800</pubDate>
+    <lastBuildDate>Sun, 24 Jan 2016 11:45:32 +0800</lastBuildDate>
+
+    
+    <item>
+      <title>《Java应用技术》考点整理</title>
+      <link>vinchi.me/%E6%8A%80%E6%9C%AF/2016/01/18/java-review.html</link>
+      <pubDate>18 Jan 2016</pubDate>
+      <author>Vinchi</author>
+      <guid>vinchi.me/%E6%8A%80%E6%9C%AF/2016/01/18/java-review</guid>
+      <description>&lt;p&gt;&lt;code&gt;By Cookie&lt;/code&gt;&lt;/p&gt;
+
+&lt;h2&gt;Java常识&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;跨平台数据类型统一&lt;/strong&gt;
+JVM对系统底层完成了封装，Java代码可以直接在JVM中运行，一次编译处处运行。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Java代码编译执行的过程&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Java和C++的比较&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Java内存模型&lt;/strong&gt;
+
+&lt;ol&gt;
+&lt;li&gt;寄存器：对客户端程序员来说是透明的（编写程序的时候感受不到其存在。）&lt;/li&gt;
+&lt;li&gt;堆栈：我的理解就是栈，在主存中存放对象的引用，并维护声明周期&lt;/li&gt;
+&lt;li&gt;堆：在主存中存放所有对象&lt;/li&gt;
+&lt;li&gt;常量：一般写在程序代码内部&lt;/li&gt;
+&lt;li&gt;非RAM存储：分为流对象和持久化对象（其实是操统中的字符设备和块设备。）&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;单根结构&lt;/strong&gt;
+Java采用单根结构，Java世界中的万物继承自Object对象，C++中则不是。
+单根结构的优势：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;所有对象都易于在堆上创建&lt;/li&gt;
+&lt;li&gt;便于参数传递&lt;/li&gt;
+&lt;li&gt;便于垃圾回收&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;main()&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;public static void main(String[] args){
+    ...
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2&gt;对象&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;基本数据类型&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;确定每种基本数据类型的存储空间大小，不随机器硬件架构变化而变化。&lt;/li&gt;
+&lt;li&gt;基本数据类型不像普通对象那样把引用存在栈中，对象实体存在堆中。而是直接把变量值存在栈中，更加高效。
+&lt;img src=&quot;http://7xoc7e.com1.z0.glb.clouddn.com/16-1-18/62444627.jpg&quot; alt=&quot;&quot;&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;关键字&lt;/strong&gt;
+&lt;img src=&quot;http://7xoc7e.com1.z0.glb.clouddn.com/16-1-18/61132331.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;对象变量的意义&lt;/strong&gt;
+用引用（reference）或句柄（handle）操纵对象&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;对象变量的赋值&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;基本类型直接复制本值&lt;/li&gt;
+&lt;li&gt;String复制引用，但是赋新值的时候放弃之前的引用&lt;/li&gt;
+&lt;li&gt;对象复制引用&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;传递对象变量进函数&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;方法的基本组成部分有：名称、返回值、参数列表、方法体&lt;/li&gt;
+&lt;li&gt;方法签名：方法名和参数列表的合称，用于唯一标示方法&lt;/li&gt;
+&lt;li&gt;传递引用&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;对象变量的比较&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;== 和 != 比较两个对象变量是否指向同一个对象&lt;/li&gt;
+&lt;li&gt;equal 比较两个对象变量指向对象是否相等&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;字符串的连接&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;带标号的break和continue&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;this&lt;/strong&gt;
+指代当前对象&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;成员初始化&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;成员变量初始化的顺序取决于定义的先后顺序&lt;/li&gt;
+&lt;li&gt;必要的时候才初始化静态变量，在该类的构造器执行之前进行&lt;/li&gt;
+&lt;li&gt;类的构造器是隐式的静态方法&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://7xoc7e.com1.z0.glb.clouddn.com/16-1-18/41810255.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;静态成员
+脱离于对象存在，归属于当前类，采用懒加载的机制，只有运行与类有关的操作时才初始化。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;数组：创建、赋值、对象数组&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;for-each循环：对象数组for-each&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2&gt;类&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;package和CLASSPATH&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;package 和 import关键字帮我们把全局名字空间分隔开，避免名称冲突问题。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;举例： Dog.java加载过程
+1. 定位Dog.class位置
+2. 载入Dog.class
+3. 在堆上分配Dog空间
+4. 存储空间清零，引用置为null
+5. 执行&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;public class&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;单继承&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;通过继承共享成员变量和方法&lt;/li&gt;
+&lt;li&gt;基类的构造器总是先执行&lt;/li&gt;
+&lt;li&gt;如果没有声明构造器，则执行默认构造器&lt;/li&gt;
+&lt;li&gt;如果声明了带参数的构造器，却没有生命不带参数的构造器，则报错&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;哪些没有被继承？&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;* 构造函数没有被继承，但是能被调用
+* 父类的任何成员变量都是会被子类继承下去的,这些继承下来的私有成员虽对子类来说不可见,但子类仍然可以用父类的函数操作他们
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;super&lt;/strong&gt;
+使用super.test()的方式在继承类中调用父类的方法。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;继承和私有变量的关系&lt;/strong&gt;
+父类的任何成员变量都是会被子类继承下去的,这些继承下来的私有成员虽对子类来说不可见,但子类仍然可以用父类的函数操作他们&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;默认动态绑定&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;final变量&lt;/strong&gt; - &lt;em&gt;常量&lt;/em&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;一个永不改变的编译时常量&lt;/li&gt;
+&lt;li&gt;一个运行时被初始化的值，你不希望他被改变&lt;/li&gt;
+&lt;li&gt;在对这个常量进行定义的时候，必须对其进行赋值&lt;/li&gt;
+&lt;li&gt;一个既static又final的变量，只占据一段不能改变的存储空间（一般用大写表示）&lt;/li&gt;
+&lt;li&gt;private 是隐式的 final&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;final方法和类&lt;/strong&gt;
+final方法&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;锁住方法，以防继承类修改，确保继承中使方法的行为保持不变，并且不会被覆盖。&lt;/li&gt;
+&lt;li&gt;效率&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;final类
+1. 不希望他有子类，在继承树上，final为叶子节点（绝育）
+2. final类禁止继承，类中方法隐式指定为final&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;abstract &amp;amp; interface&lt;/strong&gt;
+抽象类和抽象方法&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;子类从父类（抽象类）创建的共同接口中导出&lt;/li&gt;
+&lt;li&gt;抽象方法只声明，不实现&lt;/li&gt;
+&lt;li&gt;包含抽象方法的类称为抽象类&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;接口&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;* 接口中所有的方法都是public
+* 接口中所有的数据成员都是public static final
+
+        class ClassName implements interface{
+            ...
+        }
+* 接口可以继承自接口，但是不能继承自类
+* 一个类可以实现一个或多个接口
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;内部类 ?&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;在类中定义类&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;与外部类的关系&lt;/li&gt;
+&lt;li&gt;匿名函数的语法&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;枚举类 ?
+*&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2&gt;容器&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;List, Set和Map的区别&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;List 通过特定序列存储
+
+&lt;ul&gt;
+&lt;li&gt;可以进化为ArrayList和LinkedList&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Set 不允许有重复元素
+
+&lt;ul&gt;
+&lt;li&gt;可以进化为HashSet和TreeSet&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Map 键值对
+
+&lt;ul&gt;
+&lt;li&gt;可以进化为HashMap和TreeMap&lt;br&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://7xoc7e.com1.z0.glb.clouddn.com/16-1-18/4713126.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Iterator和for-each遍历
+Iterator迭代器&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;public void listNotes(){
+    Iterator&amp;lt;String&amp;gt; it = notes.interators();
+    while (it.hasNext()){
+        System.out.println(it.next());
+    }
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;for-each遍历&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;public voidlistNotes(){
+    for(String note : notes){
+        System.out.println(note);
+    }
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;范型的使用&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;Iterator&amp;lt;String&amp;gt; it = notes.interators();
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;* 开始时候不检查类型
+* 提供给客户端程序员向编译器声明类型的方法，以此检查类型
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ol&gt;
+&lt;li&gt;子类型范型和通配符&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2&gt;标准类库&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;import的意义&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Java解释器负责引用文件的查找、装载和解释。&lt;/li&gt;
+&lt;li&gt;Java解释器运行过程如下：
+
+&lt;ul&gt;
+&lt;li&gt;找出环境变量CLASSPATH&lt;/li&gt;
+&lt;li&gt;把package名称中的原点替换成斜杠或反斜杠（根据操作系统决定），进入该目录&lt;/li&gt;
+&lt;li&gt;根据类名查找.class文件&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;import static : 调用函数不需要写类名了&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;String类：不可写、常用函数、switch-case&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;初始化后不可变&lt;/li&gt;
+&lt;li&gt;常用函数：
+
+&lt;ul&gt;
+&lt;li&gt;s.compareTo(t)&lt;/li&gt;
+&lt;li&gt;s.compareToIgnoreCase(t)&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;switch-case:&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;switch(s){
+    case &amp;quot;this&amp;quot;:
+    ...
+    break;
+
+    case &amp;quot;that&amp;quot;:
+    ...
+    break;
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;StringBuffer类&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Random类&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2&gt;异常&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;throw-try-catch: Throwable, catch的匹配，万能catch&lt;/li&gt;
+&lt;li&gt;finally&lt;/li&gt;
+&lt;li&gt;throws：override的关系
+如果父类的构造函数要抛异常,子类必须都抛出来&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2&gt;IO&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;stream：只处理byte(字节文件)&lt;/li&gt;
+&lt;li&gt;Reader/Writer和stream的关系（文本文件）&lt;/li&gt;
+&lt;li&gt;DataInput/OutputStream（二进制文件）&lt;/li&gt;
+&lt;li&gt;对象串行化&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2&gt;GUI&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;部件、容器、布局管理器的关系&lt;/li&gt;
+&lt;li&gt;JFrame：pack()、setDefaultCloseOperation()&lt;/li&gt;
+&lt;li&gt;Graphics&lt;/li&gt;
+&lt;li&gt;常见布局管理器的效用&lt;/li&gt;
+&lt;li&gt;菜单的类&lt;/li&gt;
+&lt;li&gt;Swing的消息机制：Listener、Event、add/removeListener、线程通知&lt;/li&gt;
+&lt;li&gt;常见部件&lt;/li&gt;
+&lt;li&gt;JTable与MVC模式&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2&gt;线程&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;创建线程：Runnable、Thread&lt;/li&gt;
+&lt;li&gt;线程控制：start()、sleep()、yield()&lt;/li&gt;
+&lt;li&gt;synchronized&lt;/li&gt;
+&lt;li&gt;wait()和notify()&lt;/li&gt;
+&lt;li&gt;管道通信&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2&gt;RTTI&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Class类：getClass()、.class、isIntance()&lt;/li&gt;
+&lt;li&gt;instanceof&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2&gt;socket和JDBC&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Socket和ServerSocket&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;JDBC如何连接和查询
+三部曲&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;DriverManager&lt;/li&gt;
+&lt;li&gt;Connection&lt;/li&gt;
+&lt;li&gt;Statement&lt;/li&gt;
+&lt;li&gt;ResultSet&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;事物处理和preparedStatement
+事务处理&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;setAutoCommit()&lt;/li&gt;
+&lt;li&gt;commit()&lt;/li&gt;
+&lt;li&gt;rollback()&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2&gt;Lambda&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Lambda&lt;/li&gt;
+&lt;li&gt;容器的stream接口&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>当我们生活在玉泉,我们吃些什么</title>
+      <link>vinchi.me/%E7%94%9F%E6%B4%BB/2016/01/12/%E5%BD%93%E6%88%91%E4%BB%AC%E7%94%9F%E6%B4%BB%E5%9C%A8%E7%8E%89%E6%B3%89,%E6%88%91%E4%BB%AC%E5%90%83%E4%BA%9B%E4%BB%80%E4%B9%88.html</link>
+      <pubDate>12 Jan 2016</pubDate>
+      <author>Vinchi</author>
+      <guid>vinchi.me/%E7%94%9F%E6%B4%BB/2016/01/12/当我们生活在玉泉,我们吃些什么</guid>
+      <description>&lt;p&gt;一些喜欢吃的&lt;/p&gt;
+
+&lt;h3&gt;小乐惠&lt;/h3&gt;
+
+&lt;p&gt;川味/上菜神速&lt;/p&gt;
+
+&lt;h3&gt;留学生食堂&lt;/h3&gt;
+
+&lt;p&gt;便宜又能点菜&lt;/p&gt;
+
+&lt;h3&gt;二食堂&lt;/h3&gt;
+
+&lt;p&gt;先进&lt;/p&gt;
+
+&lt;h3&gt;外留食&lt;/h3&gt;
+
+&lt;p&gt;离曹楼相对来说近些&lt;/p&gt;
+
+&lt;h3&gt;小林寿司&lt;/h3&gt;
+
+&lt;p&gt;精致的日料/经常吃不起QAQ&lt;/p&gt;
+
+&lt;h3&gt;外婆家&lt;/h3&gt;
+
+&lt;p&gt;酸菜鱼好评&lt;/p&gt;
+
+&lt;h3&gt;问粥道&lt;/h3&gt;
+
+&lt;p&gt;石锅拌饭好次&lt;/p&gt;
+
+&lt;h3&gt;朴墅&lt;/h3&gt;
+
+&lt;p&gt;川菜馆/量足&lt;/p&gt;
+
+&lt;h3&gt;我鱼你&lt;/h3&gt;
+
+&lt;p&gt;实惠的自助餐&lt;/p&gt;
+
+&lt;h3&gt;大美乐&lt;/h3&gt;
+
+&lt;p&gt;华星路/新疆羊抓饭/羊肉很香&lt;/p&gt;
+
+&lt;h3&gt;韩国烤辣鸡&lt;/h3&gt;
+
+&lt;p&gt;北门&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Javascript 学习笔记</title>
+      <link>vinchi.me/%E6%8A%80%E6%9C%AF/2016/01/03/learning-js.html</link>
+      <pubDate>03 Jan 2016</pubDate>
+      <author>Vinchi</author>
+      <guid>vinchi.me/%E6%8A%80%E6%9C%AF/2016/01/03/learning-js</guid>
+      <description>&lt;h2&gt;数组&lt;/h2&gt;
+
+&lt;p&gt;创建数组&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;var array = new Array();
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;对象&lt;/h2&gt;
+
+&lt;p&gt;js中的键值对组合称为对象&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>我为什么喜欢编程</title>
+      <link>vinchi.me/%E6%8A%80%E6%9C%AF/2016/01/02/why-coding.html</link>
+      <pubDate>02 Jan 2016</pubDate>
+      <author>Vinchi</author>
+      <guid>vinchi.me/%E6%8A%80%E6%9C%AF/2016/01/02/why-coding</guid>
+      <description>&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;当Unix系操作系统的命令行使用熟练后，会发现没有什么功能是不能在命令行中实现的，与此同时键盘作为计算机的重要输入设备，通过快捷键的组合能比鼠标拥有更强的表现力，而在命令行模式下一切都可以通过键盘敲打指令完成，省去了图形界面下鼠标和键盘来回切换的麻烦。当常用的命令熟练后，在命令行中的操作让人满足于对计算机的控制感，计算机变成了十分聪明且重视可靠的伙伴，而在这个世界中&lt;strong&gt;你是唯一的上帝&lt;/strong&gt;。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;编程使繁杂和机械重复的工作通过程序&lt;strong&gt;自动化完成&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;如果自己的代码写成的服务被很多人用，就会有很不错的&lt;strong&gt;成就感&lt;/strong&gt;，即使这个项目不赚钱。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;让更多的工作通过线上完成，就能将人们从工作环境中&lt;strong&gt;解脱&lt;/strong&gt;出来&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;这个时候再带上隔音效果出色的头戴耳机，打开自己喜欢的音乐，周围的环境无法打扰你，完全沉浸在屏幕中自己的世界，更容易获得专注和&lt;strong&gt;福流&lt;/strong&gt;（Flow）的状态。&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Nodejs 学习笔记</title>
+      <link>vinchi.me/%E6%8A%80%E6%9C%AF/2016/01/02/learning-nodejs.html</link>
+      <pubDate>02 Jan 2016</pubDate>
+      <author>Vinchi</author>
+      <guid>vinchi.me/%E6%8A%80%E6%9C%AF/2016/01/02/learning-nodejs</guid>
+      <description>&lt;h2&gt;接受参数传递&lt;/h2&gt;
+
+&lt;p&gt;Express官网给出了获取参数的三种方法&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Checks route params (req.params), ex: /user/:id&lt;/li&gt;
+&lt;li&gt;Checks query string params (req.query), ex: ?id=12&lt;/li&gt;
+&lt;li&gt;Checks urlencoded body params (req.body), ex: id=12&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2&gt;RESTful API&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;GET - 用于获取数据。&lt;/li&gt;
+&lt;li&gt;PUT - 用于添加数据。&lt;/li&gt;
+&lt;li&gt;DELETE - 用于删除数据。&lt;/li&gt;
+&lt;li&gt;POST - 用于更新或添加数据。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;防止SQL注入&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;mysql.escape()&lt;/li&gt;
+&lt;li&gt;connection.escape()&lt;/li&gt;
+&lt;li&gt;pool.escape()&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;例如&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;var sql    = &amp;#39;SELECT * FROM users WHERE id = &amp;#39; + connection.escape(userId);
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;SQL语句格式化输入&lt;/h2&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;var query = connection.query(&amp;#39;SELECT ?? FROM ?? WHERE id = ?&amp;#39;, [columns, &amp;#39;users&amp;#39;, userId], function(err, results) {
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;// ...
+    });&lt;/p&gt;
+
+&lt;h2&gt;参考资料&lt;/h2&gt;
+
+&lt;p&gt;按照我看的顺序排序：&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.expressjs.com.cn/&quot;&gt;Express 官方中文文档&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.runoob.com/nodejs/nodejs-restful-api.html&quot;&gt;Nodejs RESTful API 简介&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.liaoxuefeng.com/wiki/001434446689867b27157e896e74d51a89c25cc8b43bdb3000&quot;&gt;廖雪峰的Javascript基础语法&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/felixge/node-mysql&quot;&gt;nodejs-mysql模块的使用&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;*&lt;a href=&quot;http://javascript.ruanyifeng.com/nodejs/express.html&quot;&gt;理解Express框架&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;*&lt;a href=&quot;http://anjia.github.io/2015/08/03/node_demo/&quot;&gt;理解Nodejs怎么就成了服务器了&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.runoob.com/nodejs/nodejs-tutorial.html&quot;&gt;Nodejs 详细教程&lt;/a&gt; 我还没看&lt;/p&gt;
+
+&lt;p&gt;大家有什么学习感想一起来编辑吧！&lt;/p&gt;
+
+&lt;p&gt;~~DISCUSSION~~&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Nodejs下Express框架保持后台运行</title>
+      <link>vinchi.me/%E6%8A%80%E6%9C%AF/2016/01/02/forever.html</link>
+      <pubDate>02 Jan 2016</pubDate>
+      <author>Vinchi</author>
+      <guid>vinchi.me/%E6%8A%80%E6%9C%AF/2016/01/02/forever</guid>
+      <description>&lt;p&gt;安装forever到全局&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;npm install -g forever
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;使用forever命令启动Express项目&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;forever start app.js
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;修改过源代码后重新启动项目&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;forever restart app.js
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;查看后台运行Nodejs项目列表&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;forever list
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;停止某个Nodejs项目的后台运行，Stop by Id|Uid|Pid|Index|Script&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;forever stop app.js
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;停止所有Nodejs项目的后台运行&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;forever stopall
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>Linux下的find查找命令</title>
+      <link>vinchi.me/%E6%8A%80%E6%9C%AF/2016/01/02/Linux-find.html</link>
+      <pubDate>02 Jan 2016</pubDate>
+      <author>Vinchi</author>
+      <guid>vinchi.me/%E6%8A%80%E6%9C%AF/2016/01/02/Linux-find</guid>
+      <description>&lt;p&gt;格式&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;find path -option target
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;例子&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;find / -name vsftpd.conf
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;从根目录范围内搜索vsftpd.conf文件&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>vsftp添加删除带有权限限制的用户</title>
+      <link>vinchi.me/%E6%8A%80%E6%9C%AF/2016/01/01/vsftpd.html</link>
+      <pubDate>01 Jan 2016</pubDate>
+      <author>Vinchi</author>
+      <guid>vinchi.me/%E6%8A%80%E6%9C%AF/2016/01/01/vsftpd</guid>
+      <description>&lt;p&gt;创建一个根目录为/home/test的用户&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;useradd -d /home/test test
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;设置该用户的密码&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;passwd test
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;设置为root用户&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>一个很像你的人</title>
+      <link>vinchi.me/%E7%94%9F%E6%B4%BB/2016/01/01/the-one-like-you.html</link>
+      <pubDate>01 Jan 2016</pubDate>
+      <author>Vinchi</author>
+      <guid>vinchi.me/%E7%94%9F%E6%B4%BB/2016/01/01/the-one-like-you</guid>
+      <description>&lt;p&gt;也许我是个爱交朋友的人，最近我认识了一个很像你的人，个头不高很可爱，审美也很有品位，与事不争却又透露着一丝聪慧，乖巧可爱的样子很容易让人萌生保护的欲望。&lt;/p&gt;
+
+&lt;p&gt;这让我想起曾经的你，那些有书信往来的日子，没有层层的包装，只有心与心之间没有防备的沟通，记得我们讨论人与人之间的边防河界线，我告诉你我们的边境线不需要设防。&lt;/p&gt;
+
+&lt;p&gt;今天是新年的第一天，我很想找回那些曾经的书信，认真读一下。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>dokuwiki发送邮件失败问题的解决</title>
+      <link>vinchi.me/%E6%8A%80%E6%9C%AF/2016/01/01/dokuwiki-sendmail.html</link>
+      <pubDate>01 Jan 2016</pubDate>
+      <author>Vinchi</author>
+      <guid>vinchi.me/%E6%8A%80%E6%9C%AF/2016/01/01/dokuwiki-sendmail</guid>
+      <description>&lt;p&gt;dokuwiki是一款开源好用的wiki管理系统，不需要连接数据库，纯文件存放数据内容，安装后遇到的问题是注册用户收不到注册信息邮件。&lt;/p&gt;
+
+&lt;p&gt;研究发现原因在于服务器没有安装SMTP服务&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://7xoc7e.com1.z0.glb.clouddn.com/16-1-1/14271011.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;解决方案也很简单，只需要安装sendmail服务并开启即可&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://7xoc7e.com1.z0.glb.clouddn.com/16-1-1/96854600.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;安装成功后使用telnet命令查看smtp服务默认占据的25号端口联通情况&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://7xoc7e.com1.z0.glb.clouddn.com/16-1-1/25657124.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;再次尝试发送邮件&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://7xoc7e.com1.z0.glb.clouddn.com/16-1-1/57610145.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;发现可以正常发送&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
