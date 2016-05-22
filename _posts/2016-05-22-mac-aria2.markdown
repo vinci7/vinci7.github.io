@@ -73,3 +73,8 @@ https://chrome.google.com/webstore/detail/baiduexporter/mjaenbjdjmgolhoafkohbhhb
 
 ![](http://7xoc7e.com1.z0.glb.clouddn.com/16-5-22/93423386.jpg)
 
+
+####参考链接
+
+[Mac下使用Aria2下载教程----迅雷和百度盘终极解决方案(可突破百度盘限速)](http://bbs.feng.com/read-htm-tid-9585996.html)
+
