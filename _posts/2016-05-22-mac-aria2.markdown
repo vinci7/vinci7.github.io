@@ -1,0 +1,75 @@
+---
+title: Mac下使用Aria2绕过百度云下载限速
+layout: post
+category: 技术
+---
+
+###背景
+Mac平台下没有百度云管家，百度云的同步十分痛苦且不稳定，因此大部分时候百度云的资料都是通过浏览器下载，然而经常出现连接中断却不能断点续传，以及大文件下载会被限速。
+
+###Aria2
+	
+Aria2 是一款不占空间、快速且可靠的下载软件、它支援多种通讯协定(HTTP/HTTPS, FTP, BitTorrent 及Metalink)，且可进行多重连线下载。由于没有图形界面，所以与Aria2 WebUI配合使用
+
+###Aria2安装
+	
+1. 下载安装
+
+https://github.com/tatsuhiro-t/aria2/releases/download/release-1.19.3/aria2-1.19.3-osx-darwin.dmg
+
+2. 下载配置文件aria2.conf
+
+http://aria2.sourceforge.net/manual/en/html/aria2c.html
+
+并将aria2.conf第二行
+
+	dir=/Users/XXX/Downloads
+
+中的XXX修改为你的Mac用户名
+
+在terminal中新建配置文件所在的文件夹
+
+	mkdir ~/.aria2
+	
+将配置文件aria2.conf放在此文件夹中
+
+3. 下载aria2c文件夹
+
+http://pan.baidu.com/s/1geIOORT
+
+解压后放置在/Applications 目录下
+
+###Aric2运行
+
+在命令行中到安装目录 /usr/local/aria2 下
+
+	./aria2c
+	
+查看是否成功启动
+
+	ps aux|grep aria2c
+	
+有返回值说明成功启动
+
+###通过webui-aria2控制aria2
+
+http://ziahamza.github.io/webui-aria2/
+
+出现下图提示说明安装成功
+
+![](http://7xoc7e.com1.z0.glb.clouddn.com/16-5-22/77133568.jpg)
+
+###安装Chrome插件BaiduExporter
+
+https://chrome.google.com/webstore/detail/baiduexporter/mjaenbjdjmgolhoafkohbhhbaiedbkno
+
+![](http://7xoc7e.com1.z0.glb.clouddn.com/16-5-22/99097788.jpg)
+
+点击ARIA2 RPC即可
+
+![](http://7xoc7e.com1.z0.glb.clouddn.com/16-5-22/74836643.jpg)
+
+###在webui-aria2中查看下载进程
+
+![](http://7xoc7e.com1.z0.glb.clouddn.com/16-5-22/93423386.jpg)
+
