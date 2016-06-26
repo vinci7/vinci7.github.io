@@ -1,7 +1,7 @@
 # Site settings
 title: 一枚大曲奇
 url: "http://www.qiyuqi.com"    # the protocol and hostname of your site, eg. `http://laobubu.github.io`
-baseurl: "/" # the prefix of your site uri, eg. `/jekyll-theme-EasyBook` or just one slash `/`
+baseurl: "" # the prefix of your site uri, eg. `/jekyll-theme-EasyBook` or just one slash `/`
 #timezone: Asia/Chongqing
 description: >
   骄傲的男人啊，开始了流浪的旅程。
