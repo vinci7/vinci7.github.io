@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 我却没有忍住泪水
-category: 诗
+category: 美好而常青的昨天
 ---
 
 你伤心的时候
@@ -19,3 +19,4 @@ category: 诗
 就当我知道这一切都回不去的时候
 
 我却没有忍住泪水
+

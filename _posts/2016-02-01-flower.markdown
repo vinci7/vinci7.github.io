@@ -1,7 +1,7 @@
 ---
 title: 那朵花
 layout: post
-category: 远方
+category: 美好而常青的昨天
 ---
 
 `By Cookie`

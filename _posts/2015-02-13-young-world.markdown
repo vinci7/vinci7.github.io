@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 我还年轻，全世界都是我的
-category: 生活
+category: 美好而常青的昨天
 ---
 
 
@@ -38,3 +38,4 @@ category: 生活
 但我还年轻，全世界，都是我的。
 
 新年快乐
+
