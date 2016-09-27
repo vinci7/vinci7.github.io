@@ -4,16 +4,17 @@ url: "http://www.qiyuqi.com"    # the protocol and hostname of your site, eg. `h
 baseurl: "" # the prefix of your site uri, eg. `/jekyll-theme-EasyBook` or just one slash `/`
 timezone: Asia/shanghai
 description: >
-  骄傲的男人啊，开始了流浪的旅程。
+  美好而常青的昨天，永远是过去，也永远会再来
 
 # Your information
 email: appleqyq@163.com
 author: Cookies
 avatar: "http://7xoc7e.com1.z0.glb.clouddn.com/16-6-27/11984575.jpg"
-profile: 骄傲的男人啊，开始了流浪的旅程。
+profile: 美好而常青的昨天，永远是过去，也永远会再来
 twitter_username: appleqyq
 github_username:  vinci7
 weibo_username:  sunalsorise
+instagram_username:  appleqyq
 
 # Comment Service (Disqus or 多说)
 # choose one and un-comment the line to active it
