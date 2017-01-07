@@ -23,6 +23,6 @@ Welcome to this website!
 * 曾经在小米实习过一个月，负责优化了阿里云Go版本的SDK
 * 曾经参加过爱尔兰梅努斯大学的暑期项目，顺便去伦敦玩了玩
 * 最近在日本筑波大学作交换生，三文鱼好好吃啊
-* 如果你想联系我，我的邮箱是appleqyq[at]163.com
+* 邮箱是appleqyq[at]gmail.com
 
 
