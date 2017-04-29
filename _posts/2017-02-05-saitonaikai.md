@@ -1,7 +1,7 @@
 ---
 layout: post
-title: 四国岛之行
-category: 旅行
+title: 关于物品。
+category: 且将新火试新茶
 ---
 
 ![](http://i1.piimg.com/567571/9a6830cf7e06c75b.jpg)
