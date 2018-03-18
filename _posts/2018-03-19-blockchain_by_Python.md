@@ -83,8 +83,6 @@ RSA和椭圆曲线数字签名算法（ECDSA）是最广泛应用的两种公开
 <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/pure/0.3.0/pure-min.css">
 <link rel="stylesheet" href="http://adilmoujahid.com/theme/css/bootstrap.min.css">
 <link rel="stylesheet" href="http://adilmoujahid.com/theme/css/pure.css">
-<link rel="stylesheet" href="http://adilmoujahid.com/theme/css/pygments.css">
-<link rel="stylesheet" href="http://adilmoujahid.com/theme/css/custom.css">
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 <script src="http://adilmoujahid.com/js/blockchain.js"></script>
 <script src="http://adilmoujahid.com/js/bootstrap.min.js"></script>
