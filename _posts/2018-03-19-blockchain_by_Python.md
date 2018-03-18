@@ -80,13 +80,18 @@ RSA和椭圆曲线数字签名算法（ECDSA）是最广泛应用的两种公开
 
 矿工面临的加密难题需要寻找一个nonce值，使得哈希值满足挖矿成功条件。我们可以通过下面的应用来模拟区块挖矿。当在Data栏输入内容或者改变nonce值时，哈希值会随之改变。当点击"挖矿"按钮，应用从0开始枚举nonce的值，并检查哈希值的前四位数是否等于"0000"。如果前四位数不等于"0000"，那么nonce值加一并重复相同的操作直到nonce值满足条件。如果区块完成挖矿，那么背景色会变成绿色。
 
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/pure/0.3.0/pure-min.css">
 <link rel="stylesheet" href="http://adilmoujahid.com/theme/css/bootstrap.min.css">
+<link rel="stylesheet" href="http://adilmoujahid.com/theme/css/pure.css">
+<link rel="stylesheet" href="http://adilmoujahid.com/theme/css/pygments.css">
+<link rel="stylesheet" href="http://adilmoujahid.com/theme/css/custom.css">
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 <script src="http://adilmoujahid.com/js/blockchain.js"></script>
 <script src="http://adilmoujahid.com/js/bootstrap.min.js"></script>
 <script src="http://adilmoujahid.com/js/spin.min.js"></script>
 <script src="http://adilmoujahid.com/js/ladda.min.js"></script>
 <script src="http://adilmoujahid.com/js/sha256.js"></script>
+
 <div class="container col-sm-12">
 <div id="block0chain0well" class="well">
 <form class="form-horizontal">
