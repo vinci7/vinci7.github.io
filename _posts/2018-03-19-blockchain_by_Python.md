@@ -5,9 +5,9 @@ category: 技术
 ---
 
 
-本文翻译自 Adil Moujahid 的文章 A Practical Introduction to Blockchain with Python
+> 本文翻译自 Adil Moujahid 的文章 A Practical Introduction to Blockchain with Python
 
-原文地址：[http://adilmoujahid.com/posts/2018/03/intro-blockchain-bitcoin-python/](http://adilmoujahid.com/posts/2018/03/intro-blockchain-bitcoin-python/)
+> 原文地址：[http://adilmoujahid.com/posts/2018/03/intro-blockchain-bitcoin-python/](http://adilmoujahid.com/posts/2018/03/intro-blockchain-bitcoin-python/)
 
 
 
