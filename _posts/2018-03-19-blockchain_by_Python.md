@@ -7,7 +7,8 @@ category: 技术
 
 本文翻译自 Adil Moujahid 的文章 A Practical Introduction to Blockchain with Python
 
-原文地址：http://adilmoujahid.com/posts/2018/03/intro-blockchain-bitcoin-python/
+原文地址：[http://adilmoujahid.com/posts/2018/03/intro-blockchain-bitcoin-python/](http://adilmoujahid.com/posts/2018/03/intro-blockchain-bitcoin-python/)
+
 
 
 区块链可能是继互联网之后最重大和最具突破性的技术。它是比特币和其他加密货币背后的核心技术，在近几年可谓赚足了人们的眼球。
