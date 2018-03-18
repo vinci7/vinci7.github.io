@@ -6,6 +6,7 @@ category: 技术
 
 
 > 本文翻译自 Adil Moujahid 的文章 A Practical Introduction to Blockchain with Python
+
 > 原文地址：[http://adilmoujahid.com/posts/2018/03/intro-blockchain-bitcoin-python/](http://adilmoujahid.com/posts/2018/03/intro-blockchain-bitcoin-python/)
 
 
@@ -81,7 +82,11 @@ RSA和椭圆曲线数字签名算法（ECDSA）是最广泛应用的两种公开
 
 <link rel="stylesheet" href="http://adilmoujahid.com/theme/css/bootstrap.min.css">
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-
+<script src="http://adilmoujahid.com/js/blockchain.js"></script>
+<script src="http://adilmoujahid.com/js/bootstrap.min.js"></script>
+<script src="http://adilmoujahid.com/js/spin.min.js"></script>
+<script src="http://adilmoujahid.com/js/ladda.min.js"></script>
+<script src="http://adilmoujahid.com/js/sha256.js"></script>
 <div class="container col-sm-12">
 <div id="block0chain0well" class="well">
 <form class="form-horizontal">
