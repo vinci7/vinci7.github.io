@@ -1,36 +1,37 @@
-{% if page.nocomments %}
+<noscript>Please enable JavaScript to view the comment form powered by <a href="https://commentit.io/">Comm(ent|it)</a></noscript>
+<div id="commentit"></div>
+<script type="text/javascript">
+  /** CONFIGURATION VARIABLES **/
+  var commentitUsername = 'vinci7';
+  var commentitRepo = 'vinci7/vinci7.github.io';
+  var commentitPath = '{{ page.path }}';
+
+  /** DON'T EDIT FOLLOWING LINES **/
+  (function() {
+      var commentit = document.createElement('script');
+      commentit.type = 'text/javascript';
+      commentit.async = true;
+      commentit.src = 'https://commentit.io/static/embed/dist/commentit.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(commentit);
+  })();
+</script>
+
+{%if page.comments %}
+  {% assign sorted_comments = (page.comments | sort: 'date') %}
+{% endif %}
+{% for c in sorted_comments %}
+  <div class="media">
+    <div class="media-left">
+      <img src="{{ c.author.picture }}" alt="{{ c.author.displayName}}" height="73" width="73">
+    </div>
+    <div class="media-body">
+      <p class="text-muted">
+        <a href="{{ c.author.url }}">{{ c.author.displayName }}</a>
+        on {{ c.date | date_to_string }}
+      </p>
+      <p>{{ c.content | newline_to_br }}</p>
+    </div>
+  </div>
 {% else %}
-{% if site.disqus_shortname %}
-<div class="post-comments">
-  <div id="disqus_thread"></div>
-  <script type="text/javascript">
-      var disqus_shortname = '{{ site.disqus_shortname }}'; // required: replace example with your forum shortname
-      (function() {
-          var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-          dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-          (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-      })();
-  </script>
-</div>
-{% endif %}
-{% if site.duoshuo_shortname %}
-<div class="post-comments">
-    <!-- 多说评论框 start -->
-    <div class="ds-thread" data-thread-key="{{ page.id }}" data-title="{{ page.title }}" data-url="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}"></div>
-    <!-- 多说评论框 end -->
-    <!-- 多说公共JS代码 start (一个网页只需插入一次) -->
-    <script type="text/javascript">
-    var duoshuoQuery = {short_name:"{{ site.duoshuo_shortname }}"};
-      (function() {
-      	var ds = document.createElement('script');
-      	ds.type = 'text/javascript';ds.async = true;
-      	ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
-      	ds.charset = 'UTF-8';
-      	(document.getElementsByTagName('head')[0] 
-      	 || document.getElementsByTagName('body')[0]).appendChild(ds);
-      })();
-      </script>
-    <!-- 多说公共JS代码 end -->
-</div>
-{% endif %}
-{% endif %}
+  There are no comments on this post.
+{% endfor %}
