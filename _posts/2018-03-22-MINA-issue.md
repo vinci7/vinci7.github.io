@@ -7,7 +7,7 @@ category: 技术
 bindtap事件进行参数传递的问题，微信小程序官方文档提供了如下[示例](https://mp.weixin.qq.com/debug/wxadoc/dev/framework/view/wxml/event.html)：
 
 
-```html
+```
 <view data-alpha-beta="1" data-alphaBeta="2" bindtap="bindViewTap"> DataSet Test </view>
  
 Page({
@@ -20,7 +20,7 @@ Page({
 
 wx:for列表渲染，官方[示例](https://mp.weixin.qq.com/debug/wxadoc/dev/framework/view/wxml/list.html)如下：
 
-```html
+```
 <view wx:for="{{array}}">
   {{index}}: {{item.message}}
 </view>
@@ -28,7 +28,7 @@ wx:for列表渲染，官方[示例](https://mp.weixin.qq.com/debug/wxadoc/dev/fr
 
 如果bindtap传参时，顺便使用了wx:for列表渲染
 
-```html
+```
 <view wx:for="{{array}}" data-id="item.id" bindtap="getId">
   {{index}}: {{item.message}}
 </view>
@@ -39,7 +39,7 @@ wx:for列表渲染，官方[示例](https://mp.weixin.qq.com/debug/wxadoc/dev/fr
 
 解决方案：
 
-```html
+```
 <view wx:for="{{array}}">
   <view data-id="item.id" bindtap="getId">
 	  {{index}}: {{item.message}}
