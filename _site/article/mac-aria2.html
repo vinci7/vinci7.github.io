@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Mac下使用Aria2绕过百度云下载限速 « 一枚大曲奇</title>
+  <meta name="description" content="###背景">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://localhost:7777/article/mac-aria2">
+  <link rel="alternate" type="application/rss+xml" title="一枚大曲奇" href="http://localhost:7777/feed.xml" />
+</head>
+
+
+  <body>
+
+    <header class="header">
+  <div class="wrapper">
+    <a class="site-title" href="/">一枚大曲奇</a>
+    <nav class="site-nav">
+      
+        
+      
+        
+        <a class="page-link" href="/about/">About</a>
+        
+      
+        
+        <a class="page-link" href="/category/">Category</a>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </nav>
+  </div>
+</header>
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="col-main">
+          <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Mac下使用Aria2绕过百度云下载限速</h1>
+    <p class="post-meta">May 22, 2016</p>
+  </header>
+
+  <article class="post-content">
+    <p>###背景</p>
+
+<p>Mac平台下没有百度云管家，百度云的同步十分痛苦且不稳定，因此大部分时候百度云的资料都是通过浏览器下载，然而经常出现连接中断却不能断点续传，以及大文件下载会被限速。</p>
+
+<p>###Aria2</p>
+
+<p>Aria2 是一款不占空间、快速且可靠的下载软件、它支援多种通讯协定(HTTP/HTTPS, FTP, BitTorrent 及Metalink)，且可进行多重连线下载。由于没有图形界面，所以与Aria2 WebUI配合使用</p>
+
+<p>###Aria2安装</p>
+
+<ol>
+  <li>下载安装</li>
+</ol>
+
+<p>https://github.com/tatsuhiro-t/aria2/releases/download/release-1.19.3/aria2-1.19.3-osx-darwin.dmg</p>
+
+<ol>
+  <li>下载配置文件aria2.conf</li>
+</ol>
+
+<p>http://aria2.sourceforge.net/manual/en/html/aria2c.html</p>
+
+<p>并将aria2.conf第二行</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>dir=/Users/XXX/Downloads
+</code></pre></div></div>
+
+<p>中的XXX修改为你的Mac用户名</p>
+
+<p>在terminal中新建配置文件所在的文件夹</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>mkdir ~/.aria2
+</code></pre></div></div>
+
+<p>将配置文件aria2.conf放在此文件夹中</p>
+
+<ol>
+  <li>下载aria2c文件夹</li>
+</ol>
+
+<p>http://pan.baidu.com/s/1geIOORT</p>
+
+<p>解压后放置在/Applications 目录下</p>
+
+<p>###Aric2运行</p>
+
+<p>在命令行中到安装目录 /usr/local/aria2 下</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>./aria2c
+</code></pre></div></div>
+
+<p>查看是否成功启动</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ps aux|grep aria2c
+</code></pre></div></div>
+
+<p>有返回值说明成功启动</p>
+
+<p>###通过webui-aria2控制aria2</p>
+
+<p>http://ziahamza.github.io/webui-aria2/</p>
+
+<p>出现下图提示说明安装成功</p>
+
+<p><img src="http://7xoc7e.com1.z0.glb.clouddn.com/16-5-22/77133568.jpg" alt="" /></p>
+
+<p>###安装Chrome插件BaiduExporter</p>
+
+<p>https://chrome.google.com/webstore/detail/baiduexporter/mjaenbjdjmgolhoafkohbhhbaiedbkno</p>
+
+<p><img src="http://7xoc7e.com1.z0.glb.clouddn.com/16-5-22/99097788.jpg" alt="" /></p>
+
+<p>点击ARIA2 RPC即可</p>
+
+<p><img src="http://7xoc7e.com1.z0.glb.clouddn.com/16-5-22/74836643.jpg" alt="" /></p>
+
+<p>###在webui-aria2中查看下载进程</p>
+
+<p><img src="http://7xoc7e.com1.z0.glb.clouddn.com/16-5-22/93423386.jpg" alt="" /></p>
+
+<p>####参考链接</p>
+
+<p><a href="http://bbs.feng.com/read-htm-tid-9585996.html">Mac下使用Aria2下载教程—-迅雷和百度盘终极解决方案(可突破百度盘限速)</a></p>
+
+
+  </article>
+  
+  <div style="height:50px"></div>
+
+<noscript>Please enable JavaScript to view the comment form powered by <a href="https://commentit.io/">Comm(ent|it)</a></noscript>
+<div id="commentit"></div>
+<script type="text/javascript">
+  /** CONFIGURATION VARIABLES **/
+  var commentitUsername = 'vinci7';
+  var commentitRepo = 'vinci7/vinci7.github.io';
+  var commentitPath = '_posts/2016-05-22-mac-aria2.markdown';
+
+  /** DON'T EDIT FOLLOWING LINES **/
+  (function() {
+      var commentit = document.createElement('script');
+      commentit.type = 'text/javascript';
+      commentit.async = true;
+      commentit.src = 'https://commentit.io/static/embed/dist/commentit.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(commentit);
+  })();
+</script>
+
+
+
+  There are no comments on this post.
+
+
+</div>
+
+        </div>
+        <div class="col-second">
+          <div class="col-box col-box-author">
+  <img class="avatar" src="http://7xoc7e.com1.z0.glb.clouddn.com/16-6-27/11984575.jpg" alt="Cookies">
+  <div class="col-box-title name">Cookies</div>
+  <p>美好而常青的昨天，永远是过去，也永远会再来</p>
+  <p class="contact">
+    
+    <a href="https://twitter.com/appleqyq">Twitter</a>
+    
+    
+    <a href="https://instagram.com/appleqyq">Instg</a>
+    
+    
+    <a href="http://weibo.com/sunalsorise">Weibo</a>
+    
+    
+    <a href="https://github.com/vinci7">GitHub</a>
+    
+    
+  </p>
+</div>
+
+<div class="col-box">
+  <div class="col-box-title">Newest Posts</div>
+  <ul class="post-list">
+    
+      <li><a class="post-link" href="/article/blockchain_by_Python">通过Python入门区块链</a></li>
+    
+      <li><a class="post-link" href="/article/getCC98ComputerDigitalBoard">CC98电脑数码版爬虫—商品关键字通知</a></li>
+    
+      <li><a class="post-link" href="/article/nanimonai">关于物品。</a></li>
+    
+      <li><a class="post-link" href="/article/2017">2016年过去了。</a></li>
+    
+      <li><a class="post-link" href="/article/ANewLife">A new life in Tsukuba University</a></li>
+    
+  </ul>
+</div>
+
+<div class="col-box post-toc hide">
+  <div class="col-box-title">TOC</div>
+</div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer">
+<div class="wrapper">
+&copy; 2016 Cookies
+<script type="text/javascript">
+	var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+	document.write(unescape("%3Cspan id='cnzz_stat_icon_1259936929'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s95.cnzz.com/z_stat.php%3Fid%3D1259936929' type='text/javascript'%3E%3C/script%3E"));
+</script>
+</div>
+</footer>
+
+<script src="/js/easybook.js"></script>
+
+
+  </body>
+
+</html>
