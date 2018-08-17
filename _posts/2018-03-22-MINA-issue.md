@@ -39,7 +39,7 @@ wx:for列表渲染，官方[示例](https://mp.weixin.qq.com/debug/wxadoc/dev/fr
 如果bindtap传参时，顺便使用了wx:for列表渲染
 
 ```html
-<view wx:for="\{\{array\}\}" data-id="item.id" bindtap="getId">
+<view wx:for="{{array}}" data-id="item.id" bindtap="getId">
   \{\{index\}\}: \{\{item.message\}\}
 </view>
 ```
