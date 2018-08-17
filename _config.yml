@@ -35,6 +35,5 @@ highlighter: rouge
 markdown: kramdown
 
 kramdown:
-  input: GFM
-  syntax_highlighter: rouge
   hard_warp: true
+
