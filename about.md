@@ -14,7 +14,7 @@ Welcome to my website!
 
 * 奇奇
 * INFP
-* ZJU, SE | TsukubaU, CS
+* ZJU, SE \| TsukubaU, CS
 * 希望未来可以涉足金融和计算机的交叉领域
 * 喜欢整理东西，但不太喜欢称自己为“整理强迫症”
 * macOS用户
