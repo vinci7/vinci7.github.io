@@ -1,7 +1,7 @@
 ---
 layout: post
 title: A new life in Tsukuba University
-category: About TsukubaU
+category: 东瀛
 ---
 
 
