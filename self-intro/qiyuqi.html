@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>reveal.js – The HTML Presentation Framework</title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css" id="theme">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/monokai.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+					<h1>自己紹介</h1>
+					<h3>戚 玉奇（チー）</h3>
+					<p>
+						<small>筑波大学大学院システム情報工学研究科コンピュータ・サイエンス</small>
+					</p>
+				</section>
+
+				<section>
+					<h2>自己紹介</h2>
+					<ul>
+						<li>戚　玉奇（チー　ヨイチー）</li>
+						<li>研究分野 👉 分散ストレージシステムの省電力</li>
+						<li>趣味</li>
+					</ul>
+					<img width="280" height="370" data-src="./static/syomi.png" alt="Down arrow">
+				</section>
+
+				<section>
+					<h2>研究分野</h2>
+					<img width="600" height="250" data-src="./static/disk.png" alt="Down arrow">
+					<ul>
+						<li>Modern disk has two basic modes, active and standby</li>
+					</ul>
+				</section>
+
+
+				<section>
+					<h2>研究分野</h2>
+					<img width="600" height="250" data-src="./static/disk2.png" alt="Down arrow">
+				</section>
+
+
+				<section>
+					<h2>プログラミング経歴</h2>
+					<ul>
+						<li>高校時代 👉 競技アルゴリズム一等賞</li>
+						<li>大学時代 👉 バックエンドAPI、ウィジェット👨‍👩‍👧‍👦</li>
+						<li>今 👉 Golang、docker、Kubernetesに興味のある</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>インターンシップ経験</h2>
+					<p>QuLian テクノロジー(1/3)</p>
+					<ul>
+						<li>Golangソフトウェアエンジニア</li>
+						<li>2018.07～2018.09｜中国杭州</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>インターンシップ経験</h2>
+					<p>Youzan テクノロジー(2/3)</p>
+					<ul>
+						<li>テスト開発エンジニア</li>
+						<li>2017.09～2018.03｜中国杭州</li>
+					</ul>
+					<p>北京小米テクノロジー(3/3)</p>
+					<ul>
+						<li>DevOps エンジニア</li>
+						<li>2015.07～2015.08｜中国北京</li>
+					</ul>
+
+				</section>
+
+
+				<section>
+					<h2>アルバイト</h2>
+					<img width="900" height="550" data-src="./static/baido1.png" alt="Down arrow">
+				</section>
+
+				<section>
+					<h2>アルバイト</h2>
+					<img width="900" height="550" data-src="./static/baido2.png" alt="Down arrow">
+				</section>
+
+
+				<section>
+					<h2>Thank you</h2>
+					<blockquote>
+						ご清聴ありがとうございました
+					</blockquote>
+				</section>
+
+
+			</div>
+
+		</div>
+
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				center: true,
+				hash: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true },
+					{ src: 'plugin/search/search.js', async: true },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
