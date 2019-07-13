@@ -1,6 +1,6 @@
 ---
 layout: post
-title: # 本饼干的日本找工作总结（抉择篇）
+title: 本饼干的日本找工作总结（抉择篇）
 category: 工作
 --- 
 
