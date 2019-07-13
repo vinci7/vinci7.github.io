@@ -9,7 +9,7 @@ description: >
 # Your information
 email: appleqyq@163.com
 author: Cookies
-avatar: "http://vinci7.github.io/yoshiki.png"
+avatar: "https://vinci7.github.io/yoshiki.png"
 profile: 美好而常青的昨天，永远是过去，也永远会再来
 twitter_username: appleqyq
 github_username:  vinci7
@@ -22,7 +22,6 @@ instagram_username:  appleqyq
 duoshuo_shortname: vinchi  # get one: http://duoshuo.com/create-site/
 
 permalink: /article/:title
-permalink: /article/media/:title
 gems:
  - jekyll-paginate
  - jekyll-gist
