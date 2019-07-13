@@ -32,7 +32,7 @@ category: 工作
 
 首先上个图
 
-![15630170537192](/assets/15630170537192.jpg)
+![](https://raw.githubusercontent.com/vinci7/imageHosting/master/img15630170537192.jpg)
 
 
 
