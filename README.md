@@ -1,7 +1,6 @@
 # Vinci7's Blog
 
-a personal blog
-
+A personal blog for vinci7, Click Here 💁‍♂️ [vinci7.github.oi](https://vinci7.github.io)
 
 ### Supported by
 
