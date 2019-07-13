@@ -22,6 +22,7 @@ instagram_username:  appleqyq
 duoshuo_shortname: vinchi  # get one: http://duoshuo.com/create-site/
 
 permalink: /article/:title
+permalink: /article/media/:title
 gems:
  - jekyll-paginate
  - jekyll-gist
