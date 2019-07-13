@@ -1,19 +1,18 @@
 ---
 layout: post
-title: 本饼干的CS专业2020卒日本找工作总结—关于抉择
+title: # 本饼干的日本找工作总结（抉择篇）
 category: 工作
 --- 
 
 
-
 ## 写在前面
 
-找工作是一件非常小马过河式的事情，因此留一些基本信息给大家找准锚点。
-ZJU2013级软件工程，日本筑波大学2018级CS。高中期间有NOIP竞赛经历，大学期间有四段大小厂实习经历。平时自己也会根据兴趣做一些后端开发和小程序之类的项目。简历传送门👉[zh](https://github.com/vinci7/Deedy-Resume-for-Japanese/blob/master/docs/resume-cn.pdf) [en](https://github.com/vinci7/Deedy-Resume-for-Japanese/blob/master/docs/resume.pdf) [jp](https://github.com/vinci7/Deedy-Resume-for-Japanese/blob/master/docs/resume-jp.pdf)
+如果你还没有读过本饼干的日本找工作总结（索引篇），建议先行阅读，传送门💁‍♂️ [](https://vinci7.github.io/article/jobhunting-0)
 
 ## Why Japan?
 
-这是一个在日本找工作时的经典问题，面试官想知道你选择日本的理由，以及评估一下在日本工作中途回国的风险。对我而言，或许从小时候看过宫崎骏的所有动画，NARUTO，就已经开始与日本结缘。大学期间，日语歌一直给我鼓励，X Japan，还有一些昭和风，特别符合当下中国人的精气神。
+这是一个在日本找工作时的经典问题，面试官想知道你选择日本的理由，以及评估一下在日本工作中途回国的风险。但除了作为面试的经典问题进行准备之外，也是个需要好好问问自己的问题。
+对我而言，或许从小时候看过宫崎骏的所有动画，NARUTO，就已经开始与日本结缘。大学期间，日语歌一直给我鼓励，X Japan，还有一些昭和风，特别符合当下中国人的精气神。
 幸运的大三时拿到了筑波大的交换生机会，半年的时间让我习惯了日本的生活方式，以及走出家门就算是旅游了的便捷，日本还是很美的，喜欢在日本旅游的感觉。
 后来继续在筑波大读研，再有便是认识了以后想在日本发展的女朋友，因此，也使我下定决心，硕士毕业后继续留在日本。
 
