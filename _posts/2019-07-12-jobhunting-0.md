@@ -24,11 +24,11 @@ category: 工作
 
 找工作是一件非常小马过河式的事情，因此留一些基本信息给大家找准锚点。
 
-#### 教育背景
+### 教育背景
 
 ZJU2013级软件工程，日本筑波大学2018级CS。高中期间有NOIP竞赛经历，大学期间有四段大小厂实习经历。平时自己也会根据兴趣做一些后端开发和小程序之类的项目。简历传送门👉[zh](https://github.com/vinci7/Deedy-Resume-for-Japanese/blob/master/docs/resume-cn.pdf) [en](https://github.com/vinci7/Deedy-Resume-for-Japanese/blob/master/docs/resume.pdf) [jp](https://github.com/vinci7/Deedy-Resume-for-Japanese/blob/master/docs/resume-jp.pdf)
 
-#### 关于语言水平
+### 关于语言水平
 
 因为为其3个月的就职活动，不知不觉中提高了我的日语水平，因此如下语言水平的描述，以就活开始时2019.03为基准。
 
@@ -37,7 +37,7 @@ ZJU2013级软件工程，日本筑波大学2018级CS。高中期间有NOIP竞赛
 为了让大家对我的日语水平有更清晰的认识，我罗列一些面试时一下子没能听懂或表达不出的词汇，比如说改める、お互い、接続する。（是挺菜的8
 
 
-#### 就活的轴
+### 就活的轴
 
 * 从高中开始便搞计算机，因此[就活的轴](https://en-courage.net/column/1411)完全是IT业界。
 * 曾考虑过外资咨询，但后来发现还是想做纯粹技术一点
