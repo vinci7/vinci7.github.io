@@ -1,7 +1,7 @@
 ---
 title: 当我们生活在玉泉,我们吃些什么
 layout: post
-category: 生活
+category: 吃啥
 ---
 一些喜欢吃的
 
@@ -27,5 +27,13 @@ category: 生活
 华星路/新疆羊抓饭/羊肉很香
 ###韩国烤辣鸡
 北门
+
+
+
+## 有必要给如下知乎问题一个跳转
+
+[浙大（玉泉校区）附近有什么好吃的？](https://www.zhihu.com/question/36288234)
+[浙大（紫金港校区）附近有什么好吃的？](https://www.zhihu.com/question/36518997)
+[浙大（西溪校区）附近有什么好吃的？](https://www.zhihu.com/question/63010915)
 
 

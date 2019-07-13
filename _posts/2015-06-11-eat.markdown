@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 当我们生活在紫金港,我们吃些什么
-category: 生活
+category: 吃啥
 ---
 一些喜欢吃的
 
@@ -25,5 +25,12 @@ category: 生活
 服务生热情炸了/就算不好吃也会被热情的很开心/况且很好吃/太远了
 ###外婆家
 城西银泰/酸菜鱼必点/青豆泥印象深刻/
+
+
+## 有必要给如下知乎问题一个跳转
+
+[浙大（玉泉校区）附近有什么好吃的？](https://www.zhihu.com/question/36288234)
+[浙大（紫金港校区）附近有什么好吃的？](https://www.zhihu.com/question/36518997)
+[浙大（西溪校区）附近有什么好吃的？](https://www.zhihu.com/question/63010915)
 
 
