@@ -18,8 +18,6 @@ category: 工作
 
 
 
-
-
 ## 公司选择策略
 
 总之向钱看就好了，选钱到位的一般错不了。
@@ -44,6 +42,8 @@ category: 工作
 
 ### Rakuten One Day 选考
 
+* 
+
 ### SBI BITS
 
 ### Amazon
@@ -58,6 +58,11 @@ category: 工作
 
 ### Paiza上的中小
 
+
+
+-------
+
+继续阅读:  [本饼干的日本找工作总结（展望篇）](https://vinci7.github.io/article/jobhunting-4)
 
 
 （未完待续...）
