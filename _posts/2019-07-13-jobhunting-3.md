@@ -42,7 +42,7 @@ category: 工作
 
 ### Rakuten One Day 选考
 
-* 
+* （未完待续...）
 
 ### SBI BITS
 
@@ -52,7 +52,7 @@ category: 工作
 
 ### Yahoo! Japan
 
-### LINE
+### LINE Tokyo
 
 ### Indeed
 
@@ -65,7 +65,7 @@ category: 工作
 继续阅读:  [本饼干的日本找工作总结（展望篇）](https://vinci7.github.io/article/jobhunting-4)
 
 
-（未完待续...）
+
 
 
 
