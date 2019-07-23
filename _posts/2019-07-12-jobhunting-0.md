@@ -16,7 +16,7 @@ category: 工作
 * [本饼干的日本找工作总结（抉择篇）](https://vinci7.github.io/article/jobhunting-1)
 * [本饼干的日本找工作总结（准备篇）](https://vinci7.github.io/article/jobhunting-2)
 * [本饼干的日本找工作总结（面经篇）](https://vinci7.github.io/article/jobhunting-3)
-* [本饼干的日本找工作总结（展望篇）](https://vinci7.github.io/article/jobhunting-4)
+* [本饼干的日本找工作总结（感想篇）](https://vinci7.github.io/article/jobhunting-4)
 
 
 
