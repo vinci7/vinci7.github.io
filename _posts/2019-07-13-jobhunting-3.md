@@ -93,7 +93,7 @@ ES → Coding test → 一面 → rejected
 
 
 
--------
+ 
 
 ### SBI BITS
 
@@ -115,7 +115,7 @@ ES → Coding test → 一面 → rejected
 
 
 
--------
+ 
 
 ### Amazon
 
@@ -127,7 +127,7 @@ ES → online test → rejected
 * 多看看[地里](https://www.1point3acres.com/bbs/)的面经，OA题万年不变
 
 
--------
+ 
 
 
 ### Mercari（メルカリ）
@@ -218,7 +218,7 @@ director是日本人，但英语还不错，虽然表达不好，但我说的都
 [My interview experience with Mercari](https://girlinjapan.net/my-interview-experience-with-mercari/)
 
 
--------
+ 
 
 
 
@@ -231,7 +231,7 @@ ES → online test → SPI → rejected
 
 值得注意的是，Yahoo设定了几个specialist的标准，比如说创业经验、技术书籍出版、Atcoder前2600名、顶会论文发表、等等，请参照[エンジニアコース（就業経験のない方）](https://about.yahoo.co.jp/hr/job-info/role/0001/)
 
--------
+ 
 
 
 
@@ -264,7 +264,7 @@ ES → online test → onsite 一面 → onsite 二面 → offer get
 
 
 
--------
+ 
 
 
 
@@ -284,7 +284,7 @@ online的SPI中规中矩。一面去recruit office，在东京站非常方便了
 后来就没有回复了。
 
 
--------
+ 
 
 
 
@@ -296,7 +296,7 @@ ES → 说明会 → online test → 一面 → no reply
 
 
 
--------
+ 
 
 
 
