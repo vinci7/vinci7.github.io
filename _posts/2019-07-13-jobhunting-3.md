@@ -20,7 +20,8 @@ category: 工作
 
 ## 公司选择策略
 
-总之向钱看就好了，选钱到位的一般错不了。
+* 总之向钱看就好了，选钱到位的一般错不了。
+* 犹豫不决去大厂
 
 ### 日本IT的公司的年收等级
 
@@ -42,7 +43,8 @@ category: 工作
 
 ### Rakuten One Day 选考
 
-Result: Rejected(一面)
+ES → Coding test → 一面 → rejected
+
 
 #### Rakuten 正式选考
 
@@ -68,7 +70,7 @@ Result: Rejected(一面)
     * 说觉得根据应用场景选择合适的语言更重要（答得不好
 * 你觉得乐天支付将来应该如何发展？
     * 扯了一些对支付宝和国内支付市场的看法
-* 逆问题（
+* 逆问题
     * 问了工作中的挑战
 
 在休息室等了一会，hr通知挂了，听到残念突然就蒙了，感觉被打击到了，觉得不至于会挂的。
@@ -84,67 +86,233 @@ Result: Rejected(一面)
 由于一面就挂了回家了，所以不太清楚二面就是终面还是之后还有三面，总之这部分无法提供更多信息了。
 
 
+
 #### 参考面经
 
-one day 选考
+[日本找工作（就活）体验（互联网篇）](https://www.jianshu.com/p/cebc95c5061a)
+
+
+
+-------
 
 ### SBI BITS
 
-Result: Offer get
+网申 → hr电面 → onsite三轮一下午面完 → Offer get
 
-#### 
+#### 选考流程
+
+这是一家我令我感激的公司，从这里得到了在日本找工作的第一份offer以及宝贵的实习机会。在这里认识了极靠谱的老大，以及热爱自己所做技术的优秀小组。
+
+##### 网申
+
+从[CareerCross](http://vinci7.github.io/article/jobhunting-2#%E5%B0%B1%E6%B4%BB%E7%BD%91%E7%AB%99)上投了简历，虽然是中途采用但还是硬投了。后来HR电话上简单聊了聊经历，得知这边主要是招中途采用，但还是给了机会来公司聊聊，看看能不能match上组。
+
+##### onsite
+
+三轮面试分别来自三个不同的小组，面试内容涵盖数据结构，简单的白板，计算机网络，操作系统等等。有很多题目现在反思一下，其实还是蛮有深度蛮适合当面试题的。
+
+我遇到不会的题会陷入犹豫，可能是为了给自己争取更多的思考时间，但80%的题目第一反应没有结果，硬想也是想不出来的。这次面试给了个教训是有个印度大哥面试官一直说，如果你不会可以说不会，不用硬猜或者沉默，说了三遍。确实沉默会浪费双方的时间，及时止损。
+
+
+
+-------
 
 ### Amazon
 
-Result: Rejected(online test)
+ES → online test → rejected
 
-亚马逊的online test叫online 
+感想
+
+* 亚麻的online test 叫 online assessment，黑话是OA
+* 多看看[地里](https://www.1point3acres.com/bbs/)的面经，OA题万年不变
+
+
+-------
+
 
 ### Mercari（メルカリ）
 
-Result: Rejected(终面)
+ES → Online test → web 一面 → onsite 二面 → onsite 终面 → rejected
 
-Mercari的选考流程是online test > web 一面 > onsite 二面 > onsite 终面 > offer 
-这是一家一想到就想捶大腿的公司，真的被气到了。
+对这家公司是很感兴趣的，主要是package给力，对新卒也挺能给的，以及技术栈匹配。
+
+#### ES
+
+很简单的表格，以及交个resume
+
+#### online test
+
+通知email里面有很霸气的一句话，“请追求100%的通过率，以及我们关注代码质量，代码写好点”，好吧，听说很多[AK](https://baike.baidu.com/item/AK/18224776)的小伙伴没有拿到面试。
+
+题蛮简单的，虽然2小时5道题，但1小时就做完了，剩下1小时写注释，优化了一下代码可读性。
+
+#### web 一面
+
+他家的hr反应还是很快的，之后的面试也是，虽然说一周之内发结果，但基本上半周就发了。只是面试官们的时间比较难约，比如说最后的director面，约了个两周后的时间，等了好久。
+
+面试官：backend senior engineer + 日英翻译 + hr
+
+senior是一个挺爱笑的日本大叔，能感觉到对自己很感兴趣，而且技术栈也很match。问了一些比较general的问题，顺便介绍了一下mercari，毕竟相对还不是那么的知名。
+
+一些问到的问题：
+
+> * 自我介绍
+> * Why mercari? 有什么吸引你的地方 
+> * 聊聊之前intern的项目
+> * 项目中遇到的困难，然后怎么解决的 
+> * 写代码的motivation
+> * teamwork遇到的困难
+> * 目前感兴趣正在用的技术栈，why
+> * 你更喜欢mercari还是meru pay那边？ 
+>     * 面试官介绍了一下mercari和meru pay两边的情况，表示mercari在推进微服务，meru pay貌似还是单体应用。
+> * 逆问题
+
+#### onsite 二面
+
+面试官：backend manager engineer（西班牙人）
+
+第一次来大名鼎鼎的六本木hills，正门口有一个巨大的蜘蛛雕塑，不小心参透了风水布局：蜘蛛网聚财[狗头]。hills本身修的也很霸气，可以说是东京社畜最好的畜圈了。
+
+二面面试官也很nice，会引导，比如说bottleneck，我只说了bottle忘记后面怎么讲了，他就给自动补全了：ok，bottleneck。有些时候我不知道精准的专有名词，只是描述一下那个意思。比如说，当QA发现了bug怎么办那个问题，我说要在我自己电脑上再跑一遍，看看还有没有那个问题，他说reproduction。最后走的时候给了mercari的sticker。
+
+一些问题
+
+> * Why mercari 
+> * 实习过程中你学到了哪些技术栈
+> * 问了一些测试相关的问题
+>     * 有没有压力测试经验？ 
+> * mercari一年之后，你最不想做的工作是什么？
+> * 用过什么持续集成CI工具吗？
+> * 如何优化网站的性能？
+> * 如果QA发现了一个bug，你会怎么做？ 
+> * 进入mercari后，一个月，2-3个月，1年的计划
+> * 逆问题
+
+#### onsite 终面
+
+面试官：backend director engineer + 日英翻译
+
+director是日本人，但英语还不错，虽然表达不好，但我说的都能听懂。当时经过整个就活的摧残，日语竟然有点能用了。所以翻译没怎么用上，面试官说日文，我讲英文。
+
+从一开始就觉得面的有点压迫，不管讲到什么深度都不会表示一点赞同，而是一直往下深挖到知识边界。面到一半的时候我已经开始频繁出错，思路不清晰了。事后好几天才反应过来，我怕不是被压力面了吧，还以为这是离码农很远的东西。
+
+压力面这东西最难的就是，要及时认识到这是压力面，这之后反而没那么紧张了。
+
+一些问题：
+
+> * 说一个最近intern的项目，画出architecture讲讲 
+> * architecture的每个部分，可以用什么软件完成？ 
+> * 喜欢小组合作还是自己做点东西？ 	
+> * 小组合作的经验
+> * 实习小组是怎么样的人员结构
+> * mercari的价值观all for one怎么理解？结合事例说明
+
+
+#### rejected
+
+* 这家挺厉害的是每场面1小时，没有重复问题，看来面试官间的信息共享做的蛮好的
+* 价值观那个问题答得极差，自认为是最后挂掉的主要原因。被挂了之后是很气的，现在反而没那么气了，没有缘分。既然会考价值观问题，那就说明我们是价值观不合了。虽然，这家公司技术氛围还是蛮好的（看起来）。
+* sticker扔掉了
 
 #### 参考
+[My interview experience with Mercari](https://girlinjapan.net/my-interview-experience-with-mercari/)
+
+
+-------
+
+
+
 
 ### Yahoo! Japan
 
-Result: Rejected(SPI)
+ES → online test → SPI → rejected
 
 因为看不上普通选考的年收，报了specialist选考。online test AK了，大概是SPI做的太烂了，挂了。
 
-值得注意的是，Yahoo设定了几个specialist的标准，比如说Atcoder前2600名，发表过论文等等
+值得注意的是，Yahoo设定了几个specialist的标准，比如说创业经验、技术书籍出版、Atcoder前2600名、顶会论文发表、等等，请参照[エンジニアコース（就業経験のない方）](https://about.yahoo.co.jp/hr/job-info/role/0001/)
+
+-------
+
+
+
 
 ### LINE Tokyo
 
-Result: Offer get
+ES → online test → onsite 一面 → onsite 二面 → offer get
 
-LINE的选考流程是online test > onsite一面 > onsite二面 > offer 
+一家很可爱的公司，面试过后觉得，可爱也是蛮重要的，工作的心情会变好。
 
-并不是像其他公司只有1轮网测，LINE有12轮，
-一家很可爱的公司，怎么讲，可爱也是蛮重要的，工作的心情会变好。
+#### online test 
+
+并不是像其他公司只有1轮网测，LINE有12轮，以及re-chanllege制度，也就是说挂一次没关系，可以再做几次直到AK或者拿到面试机会。
+
+题目不算太难，[LeetCode](https://leetcode.com)medium级别，要拿面试机会的话AK比较稳。
+
+#### onsite 一面
+
+面的比较基础且实用，涵盖HTTP等网络协议，服务性能优化、数据库设计、小组合作、单元测试，更多的是根据简历来问问题，面试官水平不错，也nice。
+
+#### onsite 二面
+
+问了问简历，之前的实习经历，没有问太技术向的问题。因为日语口语能力不足选了英文面试，最后面试官问是不是日语还行，感觉你都能听懂，确实是😂然后日语聊了两句。（看来还是有一丢丢在意日语水平呢hhh
+
+#### offer get
+
+二面结束当场发，惊到了。
+
+
+
+
+
+-------
+
+
+
 
 ### Recruit
 
-Result: Rejected(一面)
-Language: Japanese
+ES → online test → SPI → onsite 一面 → no reply
+
+#### online test
+
+ES 没啥好讲的，说说他家惊世骇俗的online test，有5道写SQL语句题，还算正常；有一道算法题，也不错；然后要求2小时之内实现一个公网可访问的用户+用户文章的增删改查restful API。他们用的track.run也是神奇这都能测。1小时寻找公网服务器+复习Django，然后写了一小时，测试点是功能测试，只完成部分API很吃亏，一通操作就过了四五个点。
+
+#### onsite 一面
+
+online的SPI中规中矩。一面去recruit office，在东京站非常方便了，整个公司礼仪十分日式，office不错。由于是日语面试，所以对通过什么的没什么期望，就当去聊聊天吧。先过了一下online test的结果，然后聊研究聊了很久，这也是唯一一家跟我聊研究的公司，果然够日式。然后聊了聊公司技术栈，我说我挺喜欢Go的，面试官说我们全线Java，场面尴尬到几乎控制不住了。
+
+后来就没有回复了。
+
+
+-------
+
+
 
 ### Indeed
 
-对我来说有点难了，一面凭实力挂。
+ES → 说明会 → online test → 一面 → no reply
+
+对我来说有点难了，一面凭实力挂。公司是很好的公司了，package也是顶尖的水平，还是要多刷题呀。
+
+
+
+-------
+
+
+
 
 ### Paiza上的中小
+
+Paiza是个[挺有意思的网站](http://vinci7.github.io/article/jobhunting-2#it%E7%B3%BB%E4%B8%93%E7%94%A8%E7%BD%91%E7%AB%99)，刷到B rank以上就有很多公司发短信来，然后可以约聊天。
+
+虽然不太厚道，但可以以此找找面试手感，以及练练日语，说不定就找到有缘分的工作了呢。
+
 
 
 
 -------
 
 继续阅读:  [本饼干的日本找工作总结（展望篇）](https://vinci7.github.io/article/jobhunting-4)
-
-
-
 
 
 

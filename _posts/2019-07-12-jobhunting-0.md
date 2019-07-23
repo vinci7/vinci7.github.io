@@ -26,7 +26,11 @@ category: 工作
 
 ### 教育背景
 
-ZJU2013级软件工程，日本筑波大学2018级CS。高中期间有NOIP竞赛经历，大学期间有四段大小厂实习经历。平时自己也会根据兴趣做一些后端开发和小程序之类的项目。简历传送门👉[zh](https://github.com/vinci7/Deedy-Resume-for-Japanese/blob/master/docs/resume-cn.pdf) [en](https://github.com/vinci7/Deedy-Resume-for-Japanese/blob/master/docs/resume.pdf) [jp](https://github.com/vinci7/Deedy-Resume-for-Japanese/blob/master/docs/resume-jp.pdf)
+ZJU2013级软件工程，日本筑波大学2018级CS。
+
+### 编程经历
+
+高中期间有NOIP竞赛经历，大学期间有四段大小厂实习经历。平时自己也会根据兴趣做一些后端开发和小程序之类的项目。简历传送门👉[zh](https://github.com/vinci7/Deedy-Resume-for-Japanese/blob/master/docs/resume-cn.pdf) [en](https://github.com/vinci7/Deedy-Resume-for-Japanese/blob/master/docs/resume.pdf) [jp](https://github.com/vinci7/Deedy-Resume-for-Japanese/blob/master/docs/resume-jp.pdf)
 
 ### 关于语言水平
 
