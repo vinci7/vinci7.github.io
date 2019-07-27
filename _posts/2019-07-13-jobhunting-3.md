@@ -287,6 +287,11 @@ online的SPI中规中矩。一面去recruit office，在东京站非常方便了
 
  
 
+### Cookpad
+
+ES → online test → 选考辞退
+
+
 
 
 ### Indeed

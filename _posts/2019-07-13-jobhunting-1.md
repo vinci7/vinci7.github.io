@@ -29,6 +29,11 @@ D进是日本学生的黑话，就是继续读博的意思。就活是日语就�
 
 人们喜欢延迟自己的决定，毕竟做决定并不是什么好玩的事情。在做决定之前，工作和科研这两条路的好处，仿佛都与我们有关。而决定之后，意味着你必须放弃这其中的一部分。3月份之前我也一直用这种拖延搪塞自己的未来。好在我的教授能从宏观上抓起学生，他明白早做决定的好处，一直催我做决定，并一度跟我说3月是你的deadline，必须在此之前决定好。也是因为教授的push，才是我不至于错过大部分公司的招聘时间。
 
+关于D进两份有用的资料：
+
+* [The Definitive ‘what do I ask/look for’ in a PhD Advisor Guide ](https://www.cs.columbia.edu/wp-content/uploads/2019/03/Get-Advisor.pdf)
+* [Applying to Ph.D. Programs in Computer Science](https://www.cs.cmu.edu/~harchol/gradschooltalk.pdf)
+
 ## 做决定的过程和建议
 
 做决定时，势必会让人感到痛苦，迷茫。
