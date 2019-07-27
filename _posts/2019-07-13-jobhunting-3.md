@@ -330,7 +330,7 @@ ES → 说明会 → online test → 一面 → no reply
 
 ### Paiza上的中小
 
-Paiza是个[挺有意思的网站](http://vinci7.github.io/article/jobhunting-2#it%E7%B3%BB%E4%B8%93%E7%94%A8%E7%BD%91%E7%AB%99)，刷到B rank以上就有很多公司发短信来，然后可以约聊天。
+Paiza是个[挺有意思的网站](http://vinci7.github.io/article/jobhunting-2#it%E7%B3%BB%E4%B8%93%E7%94%A8%E7%BD%91%E7%AB%99)，S rank没刷上去，但其实刷到B rank以上就有很多公司发短信来，可以约casual面谈，onsite和Skype均可。
 
 虽然不太厚道，但可以以此找找面试手感，以及练练日语，说不定就找到有缘分的工作了呢。
 
