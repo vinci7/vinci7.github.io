@@ -255,7 +255,7 @@ ES → online test → onsite 一面 → onsite 二面 → offer get
 
 #### online test 
 
-并不是像其他公司只有1轮网测，LINE有12轮，以及re-chanllege制度，也就是说挂一次没关系，可以再做几次直到AK或者拿到面试机会。
+并不是像其他公司只有1轮网测，LINE有12轮，以及re-chanllege制度。re-chanllege制度的意思是online test挂掉没关系，可以申请re-chanllege，可以再做几次直到拿到面试机会（想进面的话[AK](https://www.zhihu.com/question/278031697)比较稳）。
 
 题目不算太难，[LeetCode](https://leetcode.com)medium级别，要拿面试机会的话AK比较稳。
 
