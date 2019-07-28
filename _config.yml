@@ -1,6 +1,6 @@
 # Site settings
 title: 一枚大曲奇
-url: "https://vinci7.github.io"    # the protocol and hostname of your site, eg. `http://laobubu.github.io`
+url: "https://vinci7.github.io"
 baseurl: "" # the prefix of your site uri, eg. `/jekyll-theme-EasyBook` or just one slash `/`
 timezone: Asia/shanghai
 description: >
@@ -11,15 +11,11 @@ email: appleqyq@163.com
 author: Cookies
 avatar: "https://vinci7.github.io/yoshiki.png"
 profile: 美好而常青的昨天，永远是过去，也永远会再来
-#twitter_username: appleqyq
+#twitter_username: null
 github_username:  vinci7
-#weibo_username:  sunalsorise
+#weibo_username:  null
 instagram_username:  appleqyq
 
-# Comment Service (Disqus or 多说)
-# choose one and un-comment the line to active it
-#disqus_shortname: xxx   # get one: https://disqus.com/admin/signup/
-duoshuo_shortname: vinchi  # get one: http://duoshuo.com/create-site/
 
 permalink: /article/:title
 gems:
@@ -38,3 +34,9 @@ kramdown:
   input: GFM
   hard_wrap: false
 
+
+# Gitalk settings
+comment_gitalk_clientId: 7a84fe0175c259dec7de
+comment_gitalk_clientSecret: e40b5fe3956371ede31dc5a87e4d8a21bce75de0
+comment_gitalk_repo: vinci7.github.io
+github_username: vinci7
