@@ -16,14 +16,12 @@ github_username:  vinci7
 #weibo_username:  null
 instagram_username:  appleqyq
 
-plugins:
-  - jekyll-sitemap
-
 
 permalink: /article/:title
-gems:
+plugins:
  - jekyll-paginate
  - jekyll-gist
+ - jekyll-sitemap
 
 
 # Build settings
@@ -43,3 +41,4 @@ comment_gitalk_clientId: 7a84fe0175c259dec7de
 comment_gitalk_clientSecret: e40b5fe3956371ede31dc5a87e4d8a21bce75de0
 comment_gitalk_repo: vinci7.github.io
 github_username: vinci7
+  
