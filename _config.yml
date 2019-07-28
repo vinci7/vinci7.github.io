@@ -16,6 +16,9 @@ github_username:  vinci7
 #weibo_username:  null
 instagram_username:  appleqyq
 
+plugins:
+  - jekyll-sitemap
+
 
 permalink: /article/:title
 gems:
