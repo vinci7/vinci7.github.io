@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 本饼干的日本找工作总结（感想篇）
+title: 本饼干的日本码农就职总结（感想篇）
 category: 工作
 --- 
 
@@ -8,7 +8,7 @@ category: 工作
 
 ## 写在前面
 
-如果你还没有读过本饼干的日本找工作总结（索引篇），建议先行阅读，传送门💁‍♂️ [本饼干的日本找工作总结（开篇）](https://vinci7.github.io/article/jobhunting-0)
+如果你还没有读过本饼干的日本找工作总结（索引篇），建议先行阅读，传送门💁‍♂️ [本饼干的日本码农就职总结（开篇）](https://vinci7.github.io/article/jobhunting-0)
 
 ## 一点感想
 

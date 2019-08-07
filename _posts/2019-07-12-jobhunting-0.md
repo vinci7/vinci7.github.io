@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 本饼干的日本找工作总结（开篇）
+title: 本饼干的日本码农就职总结（开篇）
 category: 工作
 --- 
 
@@ -12,11 +12,11 @@ category: 工作
 
 文章顺序分先后
 
-* [本饼干的日本找工作总结（开篇）](https://vinci7.github.io/article/jobhunting-0)
-* [本饼干的日本找工作总结（抉择篇）](https://vinci7.github.io/article/jobhunting-1)
-* [本饼干的日本找工作总结（准备篇）](https://vinci7.github.io/article/jobhunting-2)
-* [本饼干的日本找工作总结（面经篇）](https://vinci7.github.io/article/jobhunting-3)
-* [本饼干的日本找工作总结（感想篇）](https://vinci7.github.io/article/jobhunting-4)
+* [本饼干的日本码农就职总结（开篇）](https://vinci7.github.io/article/jobhunting-0)
+* [本饼干的日本码农就职总结（抉择篇）](https://vinci7.github.io/article/jobhunting-1)
+* [本饼干的日本码农就职总结（准备篇）](https://vinci7.github.io/article/jobhunting-2)
+* [本饼干的日本码农就职总结（面经篇）](https://vinci7.github.io/article/jobhunting-3)
+* [本饼干的日本码农就职总结（感想篇）](https://vinci7.github.io/article/jobhunting-4)
 
 
 
@@ -56,5 +56,5 @@ ZJU2013级软件工程，日本筑波大学2018级CS。
 
 -------
 
-继续阅读:  [本饼干的日本找工作总结（抉择篇）](https://vinci7.github.io/article/jobhunting-1)
+继续阅读:  [本饼干的日本码农就职总结（抉择篇）](https://vinci7.github.io/article/jobhunting-1)
 

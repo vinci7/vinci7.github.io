@@ -1,16 +1,16 @@
 ---
 layout: post
-title: 本饼干的日本找工作总结（面经篇）
+title: 本饼干的日本码农就职总结（面经篇）
 category: 工作
 --- 
 
 
-## 写在前面
+# 写在前面
 
-如果你还没有读过本饼干的日本找工作总结（索引篇），建议先行阅读，传送门💁‍♂️ [本饼干的日本找工作总结（开篇）](https://vinci7.github.io/article/jobhunting-0)
+如果你还没有读过本饼干的日本找工作总结（索引篇），建议先行阅读，传送门💁‍♂️ [本饼干的日本码农就职总结（开篇）](https://vinci7.github.io/article/jobhunting-0)
 
 
-## 就活进度追踪
+# 就活进度追踪
 
 就活期间各个公司的各种ddl时间和面试进度难以管理，推荐使用[就活まるかわり表](https://www.leaderscafe.net/app/download/9756959468/%E5%B0%B1%E6%B4%BB%E9%80%B2%E8%A1%8C%E3%81%BE%E3%82%8B%E3%82%8F%E3%81%8B%E3%82%8A%E8%A1%A8.xlsx?t=1515906794)对其进行管理，此表思路是好的，但内容不一定完全适合自己，可以按照实际情况稍加改造。
 
@@ -18,12 +18,12 @@ category: 工作
 
 
 
-## 公司选择策略
+# 公司选择策略
 
 * 总之向钱看就好了，选钱到位的一般错不了。
 * 犹豫不决去大厂
 
-### 日本IT的公司的年收等级
+## 日本IT的公司的年收等级
 
 * S级（～1000万日元）: Google, Preferred Network等初创, 一流投行（高盛等）, 一流咨询（麦肯锡等）, Indeed
 * A级（～800万日元）: Microsoft, Amazon, Apple, Mercari
@@ -31,7 +31,7 @@ category: 工作
 * C级（～500万日元）: Yahoo! Japan等，好一点的中小
 * D级（～400万日元）: NTT DATA, Hitachi, Fujitsu等传统日企，一些中小...
 
-##### 参考来源
+### 参考来源
 
 * [为什么大部分日本留学生毕业后都回来了？](https://www.zhihu.com/question/311225549/answer/670566594)
 * [东京码农求职记](https://johnkyon.github.io/2019/05/06/job-hunting-Tokyo/)
@@ -39,21 +39,21 @@ category: 工作
 
 
 
-## 面试经历
+# 面试经历
 
-### Rakuten One Day 选考
+## Rakuten One Day 选考
 
 ES → Coding test → 一面 → rejected
 
-#### 关于
+### 关于
 
 乐天的业务有很多：电商、通信、支付、旅行等等。当然电商还是最主要的业务，对标国内「淘宝」。
 
-#### Rakuten 正式选考
+### Rakuten 正式选考
 
 乐天正式选考的结束时间很早，比如说20卒的选考，18年10～12月期间就已结束。也是这家公司让我有些懊悔没有提前下决心找工作，以至于错过了一个机会。乐天是一家要求全体员工考TOEIC，官方工作语言设定为英语的公司。所以日语不好的同学请注意，乐天支持英文选考，对外国人比较友好。
 
-#### Rakuten One Day 选考
+### Rakuten One Day 选考
 
 正式选考结束后，19年初又出现了一个One Day选考的机会，部门比较有限，而且看起来不是很核心的部门，有种给校招查缺补漏的感觉。我报的是Fintech部门，主要业务是乐天pay，乐天card之类的。这个选考很有意思，节奏也很快。所谓one day选考，就是(ES)[]网申通过后，到乐天总部onsite，一天的时间从coding test 一直干到终面，如果中间挂了就直接回家，如果终面通过就留下晚上一起内定者party，非常刺激。
 
@@ -90,7 +90,7 @@ ES → Coding test → 一面 → rejected
 
 
 
-#### 参考面经
+### 参考面经
 
 [日本找工作（就活）体验（互联网篇）](https://www.jianshu.com/p/cebc95c5061a)
 
@@ -98,23 +98,23 @@ ES → Coding test → 一面 → rejected
 
  
 
-### SBI BITS
+## SBI BITS
 
 网申 → hr电面 → onsite三轮一下午面完 → Offer get
 
-#### 关于BITS
+### 关于BITS
 
 母公司SBI Holdings，主要业务是证券。「SBI证券」是日本占有率第一的证券服务，对标国内「同花顺」。子公司BITS专门负责技术，为母公司提供技术支持，以及一些虚拟货币的开发。
 
-#### 选考流程
+### 选考流程
 
 这是一家我令我感激的公司，从这里得到了在日本找工作的第一份offer以及宝贵的实习机会。在这里认识了极靠谱的老大，以及热爱自己所做技术的优秀小组。
 
-##### 网申
+#### 网申
 
 从[CareerCross](http://vinci7.github.io/article/jobhunting-2#%E5%B0%B1%E6%B4%BB%E7%BD%91%E7%AB%99)上投了简历，虽然是中途采用但还是硬投了。后来HR电话上简单聊了聊经历，得知这边主要是招中途采用，但还是给了机会来公司聊聊，看看能不能match上组。
 
-##### onsite
+#### onsite
 
 三轮面试分别来自三个不同的小组，面试内容涵盖数据结构，简单的白板，计算机网络，操作系统等等。有很多题目现在反思一下，其实还是蛮有深度蛮适合当面试题的。
 
@@ -124,11 +124,11 @@ ES → Coding test → 一面 → rejected
 
  
 
-### Amazon
+## Amazon
 
 ES → online test → rejected
 
-#### 感想
+### 感想
 
 * 亚麻的online test 叫 online assessment，黑话是OA
 * 多看看[地里](https://www.1point3acres.com/bbs/)的面经，OA题万年不变
@@ -137,25 +137,25 @@ ES → online test → rejected
  
 
 
-### Mercari（メルカリ）
+## Mercari（メルカリ）
 
 ES → Online test → web 一面 → onsite 二面 → onsite 终面 → rejected
 
-#### 关于Mercari
+### 关于Mercari
 
 对这家公司是很感兴趣的，主要是package给力，对新卒也挺能给的，以及技术栈匹配。其主要业务是二手交易App，对标国内「咸鱼」。上市之前被称为日本唯一的一家独角兽，商业模式简单粗暴，在其平台上成交的每一单二手交易，抽成10%。公司现金流充足，还在美国开了分公司。日本的office在著名的六本木hills，跟Google在同一栋楼上。
 
-#### ES
+### ES
 
 很简单的表格，以及交个resume
 
-#### online test
+### online test
 
 通知email里面有很霸气的一句话，“请追求100%的通过率，以及我们关注代码质量，代码写好点”，好吧，听说很多[AK](https://baike.baidu.com/item/AK/18224776)的小伙伴没有拿到面试。
 
 题蛮简单的，虽然2小时5道题，但1小时就做完了，剩下1小时写注释，优化了一下代码可读性。
 
-#### web 一面
+### web 一面
 
 他家的hr反应还是很快的，之后的面试也是，虽然说一周之内发结果，但基本上半周就发了。只是面试官们的时间比较难约，比如说最后的director面，约了个两周后的时间，等了好久。
 
@@ -176,7 +176,7 @@ senior是一个挺爱笑的日本大叔，能感觉到对自己很感兴趣，�
 >     * 面试官介绍了一下mercari和meru pay两边的情况，表示mercari在推进微服务，meru pay貌似还是单体应用。
 > * 逆问题
 
-#### onsite 二面
+### onsite 二面
 
 面试官：backend manager engineer（西班牙人）
 
@@ -197,7 +197,7 @@ senior是一个挺爱笑的日本大叔，能感觉到对自己很感兴趣，�
 > * 进入mercari后，一个月，2-3个月，1年的计划
 > * 逆问题
 
-#### onsite 终面
+### onsite 终面
 
 面试官：backend director engineer + 日英翻译
 
@@ -217,14 +217,14 @@ director是日本人，但英语还不错，虽然表达不好，但我说的都
 > * mercari的价值观all for one怎么理解？结合事例说明
 
 
-#### rejected
+### rejected
 
 * 这家挺厉害的是每场面1小时，没有重复问题，看来面试官间的信息共享做的蛮好的
 * 回看了一眼4月17号收到online test邀请，到6.17号收到rej，战线拉到了2个月整
 * 价值观那个问题答得极差，自认为是最后挂掉的主要原因。被挂了之后是很气的，现在反而没那么气了，没有缘分。既然会考价值观问题，那就说明我们是价值观不合了。虽然，这家公司技术氛围还是蛮好的（哭
 * sticker扔掉了
 
-#### 参考
+### 参考
 [My interview experience with Mercari](https://girlinjapan.net/my-interview-experience-with-mercari/)
 
 
@@ -233,7 +233,7 @@ director是日本人，但英语还不错，虽然表达不好，但我说的都
 
 
 
-### Yahoo! Japan
+## Yahoo! Japan
 
 ES → online test → SPI → rejected
 
@@ -246,28 +246,28 @@ ES → online test → SPI → rejected
 
 
 
-### LINE Tokyo
+## LINE Tokyo
 
 ES → online test → onsite 一面 → onsite 二面 → offer get
 
 * 一家很可爱的公司，可以跟布朗熊🐻当同事。
 * 面试过后觉得，可爱还真是生产力，工作的心情会变好。
 
-#### online test 
+### online test 
 
 并不是像其他公司只有1轮网测，LINE有12轮，以及re-chanllege制度。re-chanllege制度的意思是online test挂掉没关系，可以申请re-chanllege，可以再做几次直到拿到面试机会（想进面的话[AK](https://www.zhihu.com/question/278031697)比较稳）。
 
 题目不算太难，[LeetCode](https://leetcode.com)medium级别，要拿面试机会的话AK比较稳。
 
-#### onsite 一面
+### onsite 一面
 
 面的比较基础且实用，涵盖HTTP等网络协议，服务性能优化、数据库设计、小组合作、单元测试，更多的是根据简历来问问题，面试官水平不错，也nice。
 
-#### onsite 二面
+### onsite 二面
 
 问了问简历，之前的实习经历，没有问太技术向的问题。因为日语口语能力不足选了英文面试，最后面试官问是不是日语还行，感觉你都能听懂，确实是😂然后日语聊了两句。（看来还是有一丢丢在意日语水平呢hhh
 
-#### offer get
+### offer get
 
 * 二面结束当场发，惊到了
 
@@ -281,42 +281,42 @@ ES → online test → onsite 一面 → onsite 二面 → offer get
 
 
 
-### Recruit
+## Recruit
 
 ES → online test → SPI → onsite 一面 → no reply
 
-#### online test
+### online test
 
 ES 没啥好讲的，说说他家惊世骇俗的online test，有5道写SQL语句题，还算正常；有一道算法题，也不错；然后要求2小时之内实现一个公网可访问的用户+用户文章的增删改查restful API。他们用的track.run也是神奇这都能测。1小时寻找公网服务器+复习Django，然后写了一小时，测试点是功能测试，只完成部分API很吃亏，一通操作就过了四五个点。
 
-#### onsite 一面
+### onsite 一面
 
 online的SPI中规中矩。一面去recruit office，在东京站非常方便了，整个公司礼仪十分日式，office不错。由于是日语面试，所以对通过什么的没什么期望，就当去聊聊天吧。先过了一下online test的结果，然后聊研究聊了很久，这也是唯一一家跟我聊研究的公司，果然够日式。然后聊了聊公司技术栈，我说我挺喜欢Go的，面试官说我们全线Java，场面尴尬到几乎控制不住了。
 
-#### Rejected 
+### Rejected 
 
 后来就没有回复了。
 
 
  
 
-### Cookpad
+## Cookpad
 
 ES → online test → 选考辞退
 
-#### 关于Cookpad
+### 关于Cookpad
 
 * 公司业务是菜谱分享，对标国内的「下厨房」。
 * 给人感觉挺看中技术的，整个选考的online test和面试时间预约网站都是自己程序员写的。（体验并不好后面介绍。
 * 最近在研究kubernetes，发现cookpad是CNCF的最终用户社区成员。
 
-#### 选考辞退
+### 选考辞退
 
 * 用他们的网站约一面onsite面试，提交申请后页面一刷新变成不可用了，就没在意。结果当天给发邮件说怎么没来面试，还指责我说不好好看发我的邮件里面写了预约网站就是这么设计的，变成不可用说明预约成功了。我 [微笑]，拜托好歹给发个成功的邮件吧？此后就没再理这个公司。（公司本身应该还是不错的，给的也勉强过得去
 
 
 
-### Indeed
+## Indeed
 
 ES → 说明会 → online test → 一面 → no reply
 
@@ -328,7 +328,7 @@ ES → 说明会 → online test → 一面 → no reply
 
 
 
-### Paiza上的中小
+## Paiza上的中小
 
 Paiza是个[挺有意思的网站](http://vinci7.github.io/article/jobhunting-2#it%E7%B3%BB%E4%B8%93%E7%94%A8%E7%BD%91%E7%AB%99)，S rank没刷上去，但其实刷到B rank以上就有很多公司发短信来，可以约casual面谈，onsite和Skype均可。
 
@@ -336,10 +336,9 @@ Paiza是个[挺有意思的网站](http://vinci7.github.io/article/jobhunting-2#
 
 
 
-
 -------
 
-继续阅读:  [本饼干的日本找工作总结（感想篇）](https://vinci7.github.io/article/jobhunting-4)
+继续阅读:  [本饼干的日本码农就职总结（感想篇）](https://vinci7.github.io/article/jobhunting-4)
 
 
 
