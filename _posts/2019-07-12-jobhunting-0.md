@@ -8,18 +8,6 @@ category: 工作
 这里是本饼干的日本找工作总结系列文章的的开篇，也是索引篇。
 
 
-## 文章索引
-
-文章顺序分先后
-
-* [本饼干的日本码农就职总结（开篇）](https://vinci7.github.io/article/jobhunting-0)
-* [本饼干的日本码农就职总结（抉择篇）](https://vinci7.github.io/article/jobhunting-1)
-* [本饼干的日本码农就职总结（准备篇）](https://vinci7.github.io/article/jobhunting-2)
-* [本饼干的日本码农就职总结（面经篇）](https://vinci7.github.io/article/jobhunting-3)
-* [本饼干的日本码农就职总结（感想篇）](https://vinci7.github.io/article/jobhunting-4)
-
-
-
 ## 写在前面
 
 找工作是一件非常小马过河式的事情，因此留一些基本信息给大家找准锚点。
@@ -53,8 +41,31 @@ ZJU2013级软件工程，日本筑波大学2018级CS。
 * 本科期间上过金融系列课程的影响，对Fintech方向有好感
 
 
+### 发布平台
+
+该系列文章发布在多个平台上，可以选择在自己喜欢的平台阅读。
+
+[知乎专栏传送门](https://zhuanlan.zhihu.com/c_1138411370197536768)
+
+[简书传送门](https://www.jianshu.com/p/5dc87dbf4f61)
+
+
+## 文章索引
+
+文章顺序分先后
+
+* [本饼干的日本码农就职总结（开篇）](https://vinci7.github.io/article/jobhunting-0)
+* [本饼干的日本码农就职总结（抉择篇）](https://vinci7.github.io/article/jobhunting-1)
+* [本饼干的日本码农就职总结（准备篇）](https://vinci7.github.io/article/jobhunting-2)
+* [本饼干的日本码农就职总结（面经篇）](https://vinci7.github.io/article/jobhunting-3)
+* [本饼干的日本码农就职总结（感想篇）](https://vinci7.github.io/article/jobhunting-4)
+
+
+
 
 -------
 
-继续阅读:  [本饼干的日本码农就职总结（抉择篇）](https://vinci7.github.io/article/jobhunting-1)
+## 继续阅读:  
+
+[本饼干的日本码农就职总结（抉择篇）](https://vinci7.github.io/article/jobhunting-1)
 
