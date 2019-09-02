@@ -28,7 +28,7 @@ category: 工作
 * S级（～1000万日元）: Google, Preferred Network等初创, 一流投行（高盛等）, 一流咨询（麦肯锡等）, Indeed
 * A级（～800万日元）: Microsoft, Amazon, Apple, Mercari
 * B级（～600万日元）: CyberAgent, LINE, Rakuten, Softbank, Recruit, SmartNews等互联网，IBM，Oracle，Works Application等IT，Accenture等咨询，SONY等高薪传统日企
-* C级（～500万日元）: Yahoo! Japan等，好一点的中小
+* C级（～500万日元）: Yahoo! Japan, Cookpad等，好一点的中小
 * D级（～400万日元）: NTT DATA, Hitachi, Fujitsu等传统日企，一些中小...
 
 ### 参考来源

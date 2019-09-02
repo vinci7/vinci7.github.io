@@ -64,6 +64,13 @@ category: 工作
 [segmentfault传送门](https://segmentfault.com/a/1190000020030220)
 
 
+### 更新日志
+
+---
+2019年09月02日更新
+
+* 新增[面试准备](http://vinci7.github.io/article/jobhunting-2#面试准备)部分
+
 -------
 
 ## 继续阅读:  

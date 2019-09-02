@@ -173,6 +173,40 @@ OA有几种形式，不过最喜闻乐见的当然是撸算法题了。总之Lee
 
 除此之外，还遇到过问找规律题的，写SQL语句的，让2小时之内自己搞个服务器写Restful API的（我服了），也算是见了世面了。这个会在后面[面经篇](https://vinci7.github.io/article/jobhunting-3)中详细说明。
 
+
+## 面试准备
+
+### 基础知识
+
+#### [CS-Notes](https://github.com/CyC2018/CS-Notes)
+
+可能是计算机专业面试知识整理的最全的仓库，如果不是欢迎告诉我。
+
+#### [system-design-primer](https://github.com/donnemartin/system-design-primer)
+
+系统架构、系统设计相关
+
+#### [JavaGuide](https://github.com/Snailclimb/JavaGuide)
+
+【Java学习+面试指南】 一份涵盖大部分Java程序员所需要掌握的核心知识。
+
+#### [fullstack tutorial 2019](https://github.com/frank-lam/fullstack-tutorial)
+
+后台技术栈/架构师之路/全栈开发社区，春招/秋招/校招/面试
+
+### 算法
+
+#### [Leetcode](https://leetcode.com/)
+
+#### [Lintcode](https://www.lintcode.com/)
+
+### salary negotiation
+
+[求职如何跟公司讨价还价](https://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=286214&highlight=salary)
+
+
+
+
 ## 面试环节
 
 好像也没什么好说的了...
