@@ -8,8 +8,8 @@ public: true
 
 ### Principles
 
-1. 做可复用的工作
-2. ...
+
+    做可复用的工作
 
 
 

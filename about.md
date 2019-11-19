@@ -22,8 +22,6 @@ Welcome to my website!
 * 我的简历: [zh](https://github.com/vinci7/Deedy-Resume-for-Japanese/blob/master/docs/resume-cn.pdf), [en](https://github.com/vinci7/Deedy-Resume-for-Japanese/blob/master/docs/resume.pdf), [jp](https://github.com/vinci7/Deedy-Resume-for-Japanese/blob/master/docs/resume-jp.pdf)
 
 
-下面是一些碎碎念
 
-* “人生有如负重致远，不可急躁。以受约束为常事，则不会心生不满。常思贫困，方无贪欲之念。”
-* Emojiが大好き！😈
+我的猫: [bobobubu](https://bobobubu.netlify.com/)
 
