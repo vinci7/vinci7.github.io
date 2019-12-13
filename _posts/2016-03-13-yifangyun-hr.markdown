@@ -2,6 +2,7 @@
 title: 亿方云实习面经
 layout: post
 category: 技术
+category-visible: false
 ---
 
 ####初体验

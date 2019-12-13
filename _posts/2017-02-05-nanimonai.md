@@ -1,7 +1,8 @@
 ---
 layout: post
 title: 关于物品。
-category: 观感
+category: 碎碎念
+category-visible: false
 ---
 
 

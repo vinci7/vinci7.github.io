@@ -2,6 +2,7 @@
 layout: post
 title: 小程序排坑，bindtap传参时，参数时有时无的问题
 category: 技术
+category-visible: false
 comments:
   - author:
       type: github

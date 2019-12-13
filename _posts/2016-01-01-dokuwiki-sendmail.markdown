@@ -2,6 +2,8 @@
 title: dokuwiki发送邮件失败问题的解决
 layout: post
 category: 技术
+category-visible: false
+public: false
 ---
 
 dokuwiki是一款开源好用的wiki管理系统，不需要连接数据库，纯文件存放数据内容，安装后遇到的问题是注册用户收不到注册信息邮件。

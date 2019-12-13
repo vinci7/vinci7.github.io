@@ -2,6 +2,8 @@
 title: Javascript 学习笔记
 layout: post
 category: 技术
+public: false
+category-visible: false
 ---
 
 ##数组

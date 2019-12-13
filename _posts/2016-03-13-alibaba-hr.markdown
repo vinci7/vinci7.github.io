@@ -2,6 +2,7 @@
 title: 阿里巴巴技术电面面经
 layout: post
 category: 技术
+category-visible: false
 ---
 
 因为之前投了INA，杜学长人很nice，帮忙内推阿里。研究过后我选择了国际B2C事业部。今天（周日）中午打来电话要求电面，半口鸡排还在嘴里。

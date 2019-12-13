@@ -1,7 +1,8 @@
 ---
 title: 那朵花
 layout: post
-category: 美好而常青的昨天
+category: 碎碎念
+category-visible: false
 ---
 
 `By Cookie`

@@ -2,6 +2,7 @@
 layout: post
 title: 杭临轻轨路线图 ——百度地图API自定义地图
 category: 技术
+category-visible: false
 comments:
   - author:
       type: twitter

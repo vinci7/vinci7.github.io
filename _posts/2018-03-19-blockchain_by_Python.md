@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 通过Python入门区块链
-category: 区块链
+category: 技术
 ---
 
 

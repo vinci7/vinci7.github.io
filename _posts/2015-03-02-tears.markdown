@@ -1,7 +1,9 @@
 ---
 layout: post
 title: 我却没有忍住泪水
-category: 美好而常青的昨天
+category: 碎碎念
+category-visible: false
+public: false
 ---
 
 你伤心的时候

@@ -2,6 +2,7 @@
 layout: post  
 title: Mac 配置环境变量 Path 的方法
 category: 技术
+category-visible: false
 ---
 
 全权掌握对你的MacBook的控制权

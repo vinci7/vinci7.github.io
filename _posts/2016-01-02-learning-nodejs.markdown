@@ -2,6 +2,8 @@
 title: Nodejs 学习笔记
 layout: post
 category: 技术
+category-visible: false
+public: false
 ---
 
 ##接受参数传递

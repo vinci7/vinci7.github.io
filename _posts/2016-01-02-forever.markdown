@@ -2,6 +2,8 @@
 title: Nodejs下Express框架保持后台运行
 layout: post
 category: 技术
+category-visible: false
+public: false
 ---
 
 安装forever到全局

@@ -1,7 +1,9 @@
 ---
 layout: post
 title: 一个很像你的人
-category: 美好而常青的昨天
+category: 碎碎念
+category-visible: false
+public: false
 ---
 
 也许我是个爱交朋友的人，最近我认识了一个很像你的人，个头不高很可爱，审美也很有品位，与事不争却又透露着一丝聪慧，乖巧可爱的样子很容易让人萌生保护的欲望。

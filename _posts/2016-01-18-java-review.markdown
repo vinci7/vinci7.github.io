@@ -2,6 +2,7 @@
 title: 《Java应用技术》考点整理
 layout: post
 category: 技术
+category-visible: false
 ---
 
 `By Cookie`

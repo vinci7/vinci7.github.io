@@ -1,7 +1,8 @@
 ---
 layout: post
 title: 本饼干的日本码农就职总结（准备篇）
-category: 工作
+category: 就职总结
+category-order: 2
 --- 
 
 

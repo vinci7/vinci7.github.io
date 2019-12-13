@@ -2,6 +2,8 @@
 title: vsftp添加删除带有权限限制的用户
 layout: post
 category: 技术
+category-visible: false
+public: false
 ---
 
 创建一个根目录为/home/test的用户

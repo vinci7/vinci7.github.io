@@ -2,6 +2,8 @@
 title: Linux下的find查找命令
 layout: post
 category: 技术
+category-visible: false
+public: false
 ---
 
 格式
