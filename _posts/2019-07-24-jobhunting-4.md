@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 本饼干的日本码农就职总结（感想篇）
+title: 本曲奇的日本码农就职总结之五（感想篇）
 category: 就职总结
 category-visible: true
 category-order: 4
@@ -10,7 +10,7 @@ category-order: 4
 
 ## 写在前面
 
-如果你还没有读过本饼干的日本找工作总结（索引篇），建议先行阅读，传送门💁‍♂️ [本饼干的日本码农就职总结（开篇）](https://vinci7.github.io/article/jobhunting-0)
+如果你还没有读过本饼干的日本找工作总结之一（开篇），建议先行阅读，传送门💁‍♂️ [本曲奇的日本码农就职总结之一（开篇）](https://vinci7.github.io/article/jobhunting-0)
 
 ## 一点感想
 
@@ -27,5 +27,5 @@ category-order: 4
 
 2019年07月24日凌晨3点 写于东京浅草
 
-奇奇
+曲奇君
 

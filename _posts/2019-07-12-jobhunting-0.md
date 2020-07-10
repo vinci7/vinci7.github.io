@@ -1,12 +1,12 @@
 ---
 layout: post
-title: 本饼干的日本码农就职总结（开篇）
+title: 本曲奇的日本码农就职总结之一（开篇）
 category: 就职总结
 category-order: 0
 --- 
 
 
-这里是本饼干的日本找工作总结系列文章的的开篇，也是索引篇。
+这里是本曲奇的日本找工作总结系列文章的的开篇，也是索引篇。
 
 
 
@@ -14,11 +14,11 @@ category-order: 0
 
 文章顺序分先后
 
-* [本饼干的日本码农就职总结（开篇）](https://vinci7.github.io/article/jobhunting-0)
-* [本饼干的日本码农就职总结（抉择篇）](https://vinci7.github.io/article/jobhunting-1)
-* [本饼干的日本码农就职总结（准备篇）](https://vinci7.github.io/article/jobhunting-2)
-* [本饼干的日本码农就职总结（面经篇）](https://vinci7.github.io/article/jobhunting-3)
-* [本饼干的日本码农就职总结（感想篇）](https://vinci7.github.io/article/jobhunting-4)
+* [本曲奇的日本码农就职总结之一（开篇）](https://vinci7.github.io/article/jobhunting-0)
+* [本曲奇的日本码农就职总结之二（抉择篇）](https://vinci7.github.io/article/jobhunting-1)
+* [本曲奇的日本码农就职总结之三（准备篇）](https://vinci7.github.io/article/jobhunting-2)
+* [本曲奇的日本码农就职总结之四（面经篇）](https://vinci7.github.io/article/jobhunting-3)
+* [本曲奇的日本码农就职总结之五（感想篇）](https://vinci7.github.io/article/jobhunting-4)
 
 
 ## 写在前面
@@ -75,5 +75,5 @@ category-order: 0
 
 ## 继续阅读:  
 
-[本饼干的日本码农就职总结（抉择篇）](https://vinci7.github.io/article/jobhunting-1)
+[本曲奇的日本码农就职总结之二（抉择篇）](https://vinci7.github.io/article/jobhunting-1)
 
