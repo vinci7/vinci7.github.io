@@ -33,7 +33,6 @@ category: 东瀛
 <img src="https://cdn.jsdelivr.net/gh/77ImageHosting/repo1@master/uPic/mole-removal-1.png" width = "200" height = "130" alt="" align=center />
 
 <br/>
-<br/>
 
 
 
@@ -52,14 +51,13 @@ category: 东瀛
 第一次去复诊的时候，可能因为上午去的，有些反常的人不是很多，很顺利的就完成了，我也就回家了。坐电车快到家的时候收到了皮肤科的电话，说我没结账就跑了。我心想尼玛原来取个纱布也要收钱啊，我想下周反正还要去嘛一起结了好了，但人家医院每天都会清算钱所以不行。我又原路返回去结账，收费500，往返交通费1000。QAQ
 
 <img src="https://cdn.jsdelivr.net/gh/77ImageHosting/repo1@master/uPic/mole-removal-2.png" width = "100" height = "60" alt="" align=center />
-<br/>
+
 <br/>
 
 第二次去复诊的时候，用了他们的网上取号系统，等了1小时后收到邮件说我NO SHOW，又回去仔细阅读了他们取号系统的规则，原来是网上取号之后，还要去前台换成纸质的实体号，不然就算你NO SHOW，结果那天人还很多，又等了1小时才排到医生。然后医生3秒之内把线拆了。其实以为会有些痛，结果还没反应过来就拔出来了，可能因为只缝了一针吧。
 
 <img src="https://cdn.jsdelivr.net/gh/77ImageHosting/repo1@master/uPic/mole-removal-4.png" width = "100" height = "60" alt="" align=center />
 
-<br/>
 <br/>
 
 # 恢复期
@@ -70,7 +68,6 @@ category: 东瀛
 
 <img src="https://cdn.jsdelivr.net/gh/77ImageHosting/repo1@master/uPic/mole-removal-5.png" width = "100" height = "60" alt="" align=center />
 
-<br/>
 <br/>
 
 # 时间线
