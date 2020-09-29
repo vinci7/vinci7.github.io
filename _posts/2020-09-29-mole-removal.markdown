@@ -24,6 +24,12 @@ category: 东瀛
 
 本来觉得痣的位置是在我们常说的面部危险三角区嘛，结果医生啥也没提，好像也没什么特别的危险的，该麻醉麻醉，该动刀动刀。
 
+下面是手术同意书
+
+<img src="https://cdn.jsdelivr.net/gh/77ImageHosting/repo1@master/uPic/mole-removal-7.jpeg" width="300" alt="" align=center />
+
+<br/>
+
 # 手术中
 
 就这么一路大丈夫下去，就已经躺上手术床了，才知道原来这家可以当天手术。医生在我鼻孔中塞了个棉花球，防止溅出来的麻药流入鼻腔。然后体验了人生中第一次麻醉，祛痣整个过程中最痛的阶段，好像也是唯一一次感到痛感的阶段。麻药劲儿上来之后，能感到有颗门牙的牙床都被麻住了。
@@ -32,9 +38,9 @@ category: 东瀛
 
 由于痣的位置是在鼻子下方，所以不管怎么努力，都还能闻到自己的皮肤组织被烧焦的味道，不知为何这个味道给我带来了太大的冲击，它甚至让我想起了年少轻狂时拿电蚊拍拍小强的时候闻到的蛋白质灼烧味道，就突然觉得人类还是太低等了。（胡思乱想中）
 
-过后听医生自言自语说意外的深呢，要不还是给你缝一针吧，有助于伤口恢复。其实也符合我的预期，毕竟在身上长了这么多年了，应该还是有些规模的。后来医生在伤口处贴了个纱布，并叮嘱第二天来取下纱布并检查伤口，然后手术就结束了。
+过后听医生自言自语说意外的深呢，要不还是给你缝一针吧，有助于伤口恢复。其实也符合我的预期，毕竟在身上长了这么多年了，应该还是有些规模的。后来医生在伤口处贴了个纱布，并叮嘱当天不能剧烈运动，不能喝酒，次日来取下纱布并检查伤口，然后手术就结束了。
 
-<img src="https://cdn.jsdelivr.net/gh/77ImageHosting/repo1@master/uPic/mole-removal-1.png" width = "200" height = "130" alt="" align=center />
+<img src="https://cdn.jsdelivr.net/gh/77ImageHosting/repo1@master/uPic/mole-removal-1.png" width = "200" alt="" align=center />
 
 <br/>
 
@@ -48,7 +54,7 @@ category: 东瀛
 
 后来又来复查了两次，每次分别是500日币的复诊费。
 
-<img src="https://cdn.jsdelivr.net/gh/77ImageHosting/repo1@master/uPic/图像.jpeg" width = "300"  alt="" align=center />
+<img src="https://cdn.jsdelivr.net/gh/77ImageHosting/repo1@master/uPic/图像.jpeg" width="300" alt="" align=center />
 
 <br/>
 
@@ -58,13 +64,13 @@ category: 东瀛
 
 第一次去复诊的时候，可能因为上午去的，有些反常的人不是很多，很顺利的就完成了，我也就回家了。坐电车快到家的时候收到了皮肤科的电话，说我没结账就跑了。我心想尼玛原来取个纱布也要收钱啊，我想下周反正还要去嘛一起结了好了，但人家医院每天都会清算钱所以不行。我又原路返回去结账，收费500，往返交通费1000。QAQ
 
-<img src="https://cdn.jsdelivr.net/gh/77ImageHosting/repo1@master/uPic/mole-removal-2.png" width = "100" height = "60" alt="" align=center />
+<img src="https://cdn.jsdelivr.net/gh/77ImageHosting/repo1@master/uPic/mole-removal-2.png" width="100" alt="" align=center />
 
 <br/>
 
 第二次去复诊的时候，用了他们的网上取号系统，在医院等了1小时后收到邮件说我NO SHOW，又回去仔细阅读了他们取号系统的规则，原来是网上取号之后，还要去前台换成纸质的实体号，不然就算你NO SHOW，结果那天人还很多，又等了1小时才排到医生。然后医生3秒之内把线拆了。其实以为会有些痛，结果还没反应过来就拔出来了，可能因为只缝了一针吧。
 
-<img src="https://cdn.jsdelivr.net/gh/77ImageHosting/repo1@master/uPic/mole-removal-4.png" width = "100" height = "60" alt="" align=center />
+<img src="https://cdn.jsdelivr.net/gh/77ImageHosting/repo1@master/uPic/mole-removal-4.png" width="100" alt="" align=center />
 
 <br/>
 
@@ -76,7 +82,7 @@ category: 东瀛
 
 结果意外的恢复的很快，开始的时候有一点点流脓，每次都是把伤口擦干净再涂庆大霉素。后来也没结痂，大概2周后，有一小块表层死掉的皮肤脱落了，才发现下面的皮肤其实已经长好了，然后庆大霉素也没有再涂了，洗脸剃须都可以正常进行了。
 
-<img src="https://cdn.jsdelivr.net/gh/77ImageHosting/repo1@master/uPic/mole-removal-5.png" width = "100" height = "60" alt="" align=center />
+<img src="https://cdn.jsdelivr.net/gh/77ImageHosting/repo1@master/uPic/mole-removal-5.png" width="100" alt="" align=center />
 
 <br/>
 
