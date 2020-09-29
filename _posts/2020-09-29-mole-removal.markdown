@@ -48,6 +48,10 @@ category: 东瀛
 
 后来又来复查了两次，每次分别是500日币的复诊费。
 
+<img src="https://cdn.jsdelivr.net/gh/77ImageHosting/repo1@master/uPic/图像.jpeg" width = "300"  alt="" align=center />
+
+<br/>
+
 # 复诊
 
 有两次复诊，第一次是次日，是取纱布+检查伤口。第二次是一周后，拔线。两次复诊都分别发生了料想之外的小插曲，且听俺娓娓道来QAQ
@@ -63,6 +67,8 @@ category: 东瀛
 <img src="https://cdn.jsdelivr.net/gh/77ImageHosting/repo1@master/uPic/mole-removal-4.png" width = "100" height = "60" alt="" align=center />
 
 <br/>
+
+他家的套餐里包含了对痣组织的病例检查，不出意外的被告知痣是良性的，还给了份报告书，服务还是蛮到位的hhh
 
 # 恢复期
 
