@@ -133,7 +133,7 @@ function TOCize(toc, content, matchHeightTo) {
         }
         scrolldummy.style.height = (c+'px');
     };
-    window.addEventListener('scroll', s1, false);
+    //window.addEventListener('scroll', s1, false);
     window.addEventListener('resize', s1, false);
 }
 
