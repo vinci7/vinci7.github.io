@@ -260,6 +260,8 @@ ES → online test → onsite 一面 → onsite 二面 → offer get
 
 题目不算太难，[LeetCode](https://leetcode.com) medium级别，要拿面试机会的话AK比较稳。
 
+（2020-10-08更新：每年的面试规则可能会变化，本博仅能代表2020卒的情况，详情请关注[LINE新卒採用](https://linecorp.com/ja/career/newgrads/)）
+
 ### onsite 一面
 
 面的比较基础且实用，涵盖HTTP等网络协议，服务性能优化、数据库设计、小组合作、单元测试，更多的是根据简历来问问题，面试官水平不错，也nice。
