@@ -1,7 +1,5 @@
 # Vinci7's Blog
 
-![Total Visits](http://pv-badge.herokuapp.com/total.svg?repo_id=vinci7.github.io)
-
 A personal blog for vinci7, Click Here 💁‍♂️ [vinci7.github.io](https://vinci7.github.io)
 
 ### Supported by
