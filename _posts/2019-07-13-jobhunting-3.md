@@ -13,7 +13,7 @@ category-order: 3
 
 # 就活进度追踪
 
-就活期间各个公司的各种ddl时间和面试进度难以管理，推荐使用[就活まるかわり表](https://www.leaderscafe.net/app/download/9756959468/%E5%B0%B1%E6%B4%BB%E9%80%B2%E8%A1%8C%E3%81%BE%E3%82%8B%E3%82%8F%E3%81%8B%E3%82%8A%E8%A1%A8.xlsx?t=1515906794)对其进行管理，此表思路是好的，但内容不一定完全适合自己，可以按照实际情况稍加改造。
+就活期间各个公司的各种ddl时间和面试进度难以管理，推荐使用[就活まるかわり表](/assets/20190713/management.xltx)对其进行管理，此表思路是好的，但内容不一定完全适合自己，可以按照实际情况稍加改造。
 
 ![](https://raw.githubusercontent.com/vinci7/imageHosting/master/img15630187767542.jpg)
 
