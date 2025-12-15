@@ -20,5 +20,5 @@ Welcome to my website!
 * 邮箱appleqyq[at]gmail.com
 
 
-我的猫😼😸: [bobobubu](https://bobobubu.netlify.com/)
+我的猫😼😸: [bobobubu](https://bobobubu.netlify.app/)
 

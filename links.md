@@ -21,7 +21,7 @@ public: true
 
 看板，个人作为任务管理工具
 
-### [bobobubu](https://bobobubu.netlify.com/)
+### [bobobubu](https://bobobubu.netlify.app/)
 
 波波和布布兄妹的博客，喵～
 
